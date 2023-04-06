@@ -1,0 +1,28 @@
+.logo {
+    width: 55px;
+}
+
+.app_image {
+    width: 270px;
+    padding: 0 0 60px 0;
+}
+
+
+
+.nav_hero_bg {
+    background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
+    /* height: 750px; */
+    width: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.hero_area {
+    padding: 50px 50px;
+}
+
+.discount {
+    background-color: rgba(122, 122, 122, 0.436);
+    padding: 2px;
+}

@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = () => {
     return (
-        <div>
+        <div className=' text-center'>
             <h2>This is Hero Section</h2>
         </div>
     );

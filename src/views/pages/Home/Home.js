@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className=' text-center'>
             {/* <Navbar></Navbar> */}
-            <Hero></Hero>
+            {/* <Hero></Hero> */}
             <Feature></Feature>
             <Solution></Solution>
             <AboutUs></AboutUs>
