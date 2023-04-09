@@ -22,22 +22,22 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link onClick={() => setIsOpen(true)} className="nav-link active  text-white" aria-current="page" to="/">Home</Link>
+                                    <Link onClick={() => setIsOpen(true)} className="nav_button nav-link active  text-white" aria-current="page" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link onClick={() => setIsOpen(false)} className="nav-link  text-white" to="/aboutus">About Us</Link>
+                                    <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/aboutus">About Us</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link onClick={() => setIsOpen(false)} className="nav-link  text-white" to="/features">Features</Link>
+                                    <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/features">Features</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link onClick={() => setIsOpen(false)} className="nav-link  text-white" to="/solution">Soution</Link>
+                                    <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/solution">Solution</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link onClick={() => setIsOpen(false)} className="nav-link  text-white" to="/login">Login</Link>
+                                    <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/login">Login</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link onClick={() => setIsOpen(false)} className="nav-link  text-white" to="/signup">Signup</Link>
+                                    <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/signup">Signup</Link>
                                 </li>
                             </ul>
                         </div>
