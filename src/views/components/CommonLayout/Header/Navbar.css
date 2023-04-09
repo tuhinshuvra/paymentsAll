@@ -3,19 +3,20 @@
 }
 
 .app_image {
-    width: 270px;
+    width: 250px;
     padding: 0 0 60px 0;
+    margin: 0 25%;
 }
-
-
 
 .nav_hero_bg {
     background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
     /* height: 750px; */
-    width: 1300px;
+    /* width: 1300px; */
+    /* width: 100vw; */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
+    clip-path: polygon(0 0%, 100% 0, 100% 77%, 0 100%);
 }
 
 .hero_area {
@@ -24,5 +25,187 @@
 
 .discount {
     background-color: rgba(122, 122, 122, 0.436);
-    padding: 2px;
+    padding: 7px 12px;
+}
+
+.discount_star {
+    background: image("../../../../assets/parcent-star.png");
+    background-size: cover;
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.hero_heading {
+    font-family: "mastro-caption";
+    font-size: 66px;
+    /* font-weight: 600; */
+    line-height: 66px;
+}
+
+.hero_sub_text {
+    font-size: 14px;
+    color: rgb(219, 214, 214);
+}
+
+.hero_text_middle {
+    color: gold;
+}
+
+.timmer_counter_number {
+    color: gold;
+}
+
+.payments_btn {
+    text-decoration: none;
+    background-color: rgb(175, 5, 175);
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.payments_btn:hover {
+    background-color: rgb(136, 5, 136);
+    color: white;
+}
+
+.payments_outLine_btn {
+    text-decoration: none;
+    /* background-color: none; */
+    margin: 12px 0 0 0;
+    color: white;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.payments_outLine_btn:hover {
+    background-color: rgb(136, 5, 136);
+    margin: 0 0 0 0;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .nav_hero_bg {
+        /* width: 99.8%; */
+        clip-path: polygon(0 0%, 100% 0, 100% 84%, 0 100%);
+    }
+
+
+    .app_image {
+        width: 160px;
+    }
+
+    .hero_heading {
+        text-align: center;
+        font-size: 42px;
+        line-height: 44px;
+    }
+
+    .hero_area {
+        align-items: center;
+    }
+
+    .hero_sub_text {
+        align-items: center;
+    }
+
+    .discount {
+        background-color: rgba(122, 122, 122, 0.436);
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+
+    .timmer_counter_number {
+        font-size: 19px;
+    }
+
+    .payments_btn {
+        padding: 6px 8px;
+    }
+
+    .payments_outLine_btn {
+        text-decoration: none;
+        /* background-color: none; */
+        margin: 8px 0 0 0;
+        color: white;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .payments_outLine_btn:hover {
+        background-color: rgb(136, 5, 136);
+        margin: 0 0 0 0;
+        color: white;
+        padding: 6px 8px;
+        border: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .nav_hero_bg {
+        background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
+        /* width: 99.8%; */
+        height: 610px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        clip-path: polygon(0 0%, 100% 0, 100% 95%, 0 100%);
+    }
+
+    .app_image {
+        width: 160px;
+    }
+
+    .hero_heading {
+        text-align: center;
+        font-size: 42px;
+        line-height: 44px;
+    }
+
+    .hero_area {
+        align-items: center;
+    }
+
+    .hero_sub_text {
+        align-items: center;
+    }
+
+    .discount {
+        background-color: rgba(122, 122, 122, 0.436);
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+
+    .timmer_counter_number {
+        font-size: 19px;
+    }
+
+    .payments_btn {
+        padding: 6px 8px;
+    }
+
+    .payments_outLine_btn {
+        text-decoration: none;
+        /* background-color: none; */
+        margin: 8px 0 0 0;
+        color: white;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .payments_outLine_btn:hover {
+        background-color: rgb(136, 5, 136);
+        margin: 0 0 0 0;
+        color: white;
+        padding: 6px 8px;
+        border: none;
+    }
+
 }
