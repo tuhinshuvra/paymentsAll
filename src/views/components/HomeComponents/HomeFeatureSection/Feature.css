@@ -1,0 +1,22 @@
+.feature_bg {
+    background-color: #FEC85B;
+}
+
+.feature_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+
+.featureHead {
+    font-family: "mastro-caption";
+    font-size: 56px;
+    letter-spacing: -1px;
+    padding: 90px 0 34px;
+}
+
+.featureSubHead {
+    font-family: "mastro-caption";
+    font-size: 15px;
+    padding: 0px 0 60px;
+}
