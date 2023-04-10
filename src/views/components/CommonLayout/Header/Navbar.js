@@ -43,7 +43,6 @@ const Navbar = () => {
                         </div>
                     </div>
                 </nav>
-
             </div>
 
             {/* Hero Section */}
@@ -52,7 +51,7 @@ const Navbar = () => {
                 ?
                 <div className='col-md-10 mx-auto'>
                     <div className='row'>
-                        <div className='col-md-8 text-white hero_area '>
+                        <div className='col-md-7 text-white hero_area '>
 
                             <div className=' text-md-start text-center'>
                                 <span className='discount rounded-5'><img className='discount_star' src={DiscountStar} alt="" />25% DISCOUNT FOR 1 MONTH ACCOUNT</span>
@@ -69,19 +68,19 @@ const Navbar = () => {
                             </div>
 
 
-                            <div className='col-md-9 me-auto px-2 px-md-0'>
+                            <div className='col-md-11 me-auto px-2 px-md-0'>
                                 <div className='d-flex justify-content-md-between justify-content-center my-5'>
 
-                                    <div className=' text-center'>
-                                        <h3 className=' timmer_counter_number'>6K+</h3>
+                                    <div className='text-center'>
+                                        <h3 className='timmer_counter_number'>6K+</h3>
                                         <p className='hero_sub_text'>ACTIVE USER</p>
                                     </div>
-                                    <div className=' text-center'>
-                                        <h3 className=' timmer_counter_number'>110+</h3>
+                                    <div className='text-center'>
+                                        <h3 className='timmer_counter_number'>110+</h3>
                                         <p className='hero_sub_text mx-3 mx-md-0'>TRUSTED BY COMPANIES</p>
                                     </div>
-                                    <div className=' text-center'>
-                                        <h3 className=' timmer_counter_number'>$ 230 M+</h3>
+                                    <div className='text-center'>
+                                        <h3 className='timmer_counter_number'>$ 230 M+</h3>
                                         <p className='hero_sub_text'>TRANSATIONS</p>
                                     </div>
 
@@ -90,7 +89,7 @@ const Navbar = () => {
                             </div>
                         </div>
 
-                        <div className='col-md-4 d-none d-md-block'>
+                        <div className='col-md-5 d-none d-md-block'>
                             <img className='app_image' src={AppImage} alt="" />
                         </div>
                     </div>
