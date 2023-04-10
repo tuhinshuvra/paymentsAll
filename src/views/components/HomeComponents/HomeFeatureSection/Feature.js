@@ -4,8 +4,8 @@ import FeatureTopics from './FeatureSingleTopics/FeatureSingleTopics';
 import AddMoney from '../../../../assets/icons/add_money.png'
 import BankTransfer from '../../../../assets/icons/bank_transfer.png'
 import BillPay from '../../../../assets/icons/bill_pay.png'
-import CashOut from '../../../../assets/icons/govt_Fees.png'
-import Merchant from '../../../../assets/icons/merchant_pay.png'
+import GovtFees from '../../../../assets/icons/govt_Fees.png'
+import MerchantPay from '../../../../assets/icons/merchant_pay.png'
 import MobileBank from '../../../../assets/icons/mobile_bank.png'
 import MoneyRecharge from '../../../../assets/icons/money_recharge.png'
 import QuickPay from '../../../../assets/icons/quick_pay.png'
@@ -14,14 +14,13 @@ import Ticket from '../../../../assets/icons/ticket.png'
 import Vat from '../../../../assets/icons/vat.png'
 import Salary from '../../../../assets/icons/vat.png'
 import TravelCard from '../../../../assets/icons/vat.png'
-
 import './Feature.css';
 
 const Feature = () => {
     return (
         <div className='feature_bg '>
             <h2 className='featureHead'>All the Features to Support <br /> Your Payment Experience</h2>
-            <p className='featureSubHead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi <br /> necessitatibus quod voluptas iure. Asperiores quo.</p>
+            <p className='featureSubHead'> We bring together everything that you need to use <br /> for you to experiece of financial transaction</p>
 
             <div className='feature_items col-10 mx-auto'>
                 <FeatureTopics
