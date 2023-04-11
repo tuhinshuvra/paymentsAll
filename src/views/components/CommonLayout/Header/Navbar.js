@@ -64,7 +64,7 @@ const Navbar = () => {
 
                             <div className=' d-flex justify-content-md-start justify-content-center'>
                                 <Link className=' payments_btn'>Get Started Now</Link>
-                                <Link className='  ms-4 payments_outLine_btn '>How it works<AiOutlineRight /></Link>
+                                <Link className='  ms-4 payments_custom_btn '>How it works<AiOutlineRight /></Link>
                             </div>
 
 

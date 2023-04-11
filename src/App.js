@@ -1,7 +1,7 @@
 import { RouterProvider } from 'react-router-dom';
-import './App.css';
 import { ToastContainer } from 'react-toastify';
 import router from './routes/Routes';
+import './App.css';
 
 function App() {
   return (

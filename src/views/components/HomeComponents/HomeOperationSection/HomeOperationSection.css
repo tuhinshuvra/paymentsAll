@@ -1,0 +1,17 @@
+.operionBg {
+    background-color: #EBE8E0;
+}
+
+.operionImage {
+    width: 330px;
+    margin: 12% 25%;
+}
+
+.operationIcon {
+    background-color: #cadfc0;
+    width: 40px;
+    height: 40px;
+    color: green;
+    border-radius: 10px;
+    padding: 10px;
+}

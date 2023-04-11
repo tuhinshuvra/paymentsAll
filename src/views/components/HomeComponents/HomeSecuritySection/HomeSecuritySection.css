@@ -1,9 +1,43 @@
+.securityBg {
+    background-color: #F6F5EF;
+}
+
+.securityImage {
+    width: 230px;
+    margin: 0% 25%;
+}
+
 .security_icon {
-    color: #8ecb95;
-    width: 75px;
-    height: 67px;
+    color: #2F9464;
+    width: 95px;
+    height: 77px;
     background-color: #D8EADA;
-    padding: 5px;
-    border-radius: 50%;
-    padding: 10px;
+    border-radius: 50px;
+    padding: 22px;
+}
+
+.secutiryTitle {
+    font-family: 'mastro-caption';
+    font-size: 24px;
+    color: #0F393B;
+    /* margin: 0; */
+}
+
+.secutirySubTitle {
+    font-family: 'mastro-caption';
+    font-size: 14px;
+    color: #0F393B;
+    /* margin: 0; */
+}
+
+.securityRightTitle {
+    font-family: 'mastro-caption';
+    font-size: 40px;
+    color: #0F393B;
+}
+
+.securityRightSubTitle {
+    font-family: 'mastro-caption';
+    font-size: 14px;
+    color: #0F393B;
 }

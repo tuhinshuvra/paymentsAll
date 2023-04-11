@@ -6,6 +6,9 @@ import Feature from '../../components/HomeComponents/HomeFeatureSection/Feature'
 import Solution from '../../components/HomeComponents/HomeSolutionSection/Solution';
 import AboutUs from '../../components/HomeComponents/HomeAboutUs/AboutUs';
 import HomeSecuritySection from '../../components/HomeComponents/HomeSecuritySection/HomeSecuritySection';
+import HomeOperationSection from '../../components/HomeComponents/HomeOperationSection/HomeOperationSection';
+import './Home.css'
+import HomeUserFeedback from '../../components/HomeComponents/HomeUserFeedback/HomeUserFeedback';
 
 const Home = () => {
     return (
@@ -13,8 +16,9 @@ const Home = () => {
             {/* <Navbar></Navbar> */}
             {/* <Hero></Hero> */}
             <Feature></Feature>
-
             <HomeSecuritySection></HomeSecuritySection>
+            <HomeOperationSection></HomeOperationSection>
+            <HomeUserFeedback></HomeUserFeedback>
             <Solution></Solution>
             <AboutUs></AboutUs>
             {/* <Footer></Footer> */}
