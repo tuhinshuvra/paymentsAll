@@ -1,7 +1,30 @@
+.preIcon {
+    background-image: url('../../../../../../assets/svgIcon/left-arrow.svg') !important;
+    margin: -414px -1620px 0px 118px !important;
+    padding: 10px 36px;
+    background-color: #dff9e3;
+    color: rgb(3, 75, 3) !important;
+    border-radius: 20px;
+}
+
+.nextIcon {
+    background-image: url('../../../../../../assets/svgIcon/right-arrow.svg') !important;
+    margin: -415px -80px 0 0 !important;
+    padding: 10px 36px;
+    background-color: #dff9e3;
+    color: rgb(3, 75, 3) !important;
+    border-radius: 20px;
+}
+
+
 .carsosolItemArea {
     background-color: #EFFDF1;
     padding: 50px !important;
     border-radius: 15px;
+}
+
+.carsosolItemArea:hover {
+    background-color: #40676a0f;
 }
 
 .feedbackQuote {
@@ -39,14 +62,63 @@
     border-radius: 50px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1439.98px) {
+    .preIcon {
+        margin: -392px -1072px 0px 118px !important;
+        padding: 8px 32px;
+    }
+
+    .nextIcon {
+        margin: -392px 0px 0 0 !important;
+        padding: 8px 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
     .carsosolItemArea {
         padding: 27px !important;
         border-radius: 15px;
     }
+
+    .preIcon {
+        margin: -368px -872px 0px 118px !important;
+        padding: 8px 32px;
+    }
+
+    .nextIcon {
+        margin: -368px 136px 0 0 !important;
+        padding: 8px 32px;
+    }
 }
 
-@media (min-width: 320px) and (max-width: 767.98px) {
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .preIcon {
+        margin: -342px -406px 0px 118px !important;
+        padding: 8px 32px;
+    }
+
+    .nextIcon {
+        margin: -342px 240px 0 0 !important;
+        padding: 8px 32px;
+    }
+
+    .carsosolItemArea {
+        padding: 23px !important;
+        border-radius: 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+    .preIcon {
+        margin: -338px -273px 0px 118px !important;
+        padding: 8px 32px;
+    }
+
+    .nextIcon {
+        margin: -338px 375px 0 0 !important;
+        padding: 8px 32px;
+    }
+
     .carsosolItemArea {
         padding: 23px !important;
         border-radius: 15px;

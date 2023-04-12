@@ -1,5 +1,6 @@
 import React from 'react';
 import GridCarousolItem from './GridCarousolItem/GridCarousolItem';
+import { BsArrowRight, BsArrowLeft } from 'react-icons/bs';
 
 import ClientsOne from '../../../../../assets/clients/clients_1.jpg';
 import ClientsTwo from '../../../../../assets/clients/clients_2.png';
@@ -14,7 +15,7 @@ import ClientsNine from '../../../../../assets/clients/clients_4.jpg';
 const HomeUserFeedbackCarousol = () => {
     return (
         <div className='col-10 mx-auto'>
-            <div id="clientsGridCarousol" className="carousel  carousel-dark slide " data-bs-ride="carousel">
+            <div id="clientsGridCarousol" className="carousel  slide " data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="2000">
                         <GridCarousolItem
