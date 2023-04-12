@@ -1,15 +1,17 @@
 import React from 'react';
-import Feature from '../../components/HomeComponents/HomeFeatureSection/Feature';
+import HomeFeatureSection from '../../components/HomeComponents/HomeFeatureSection/HomeFeatureSection';
 import AboutUs from '../../components/HomeComponents/HomeAboutUs/AboutUs';
 import HomeSecuritySection from '../../components/HomeComponents/HomeSecuritySection/HomeSecuritySection';
 import HomeOperationSection from '../../components/HomeComponents/HomeOperationSection/HomeOperationSection';
 import HomeUserFeedback from '../../components/HomeComponents/HomeUserFeedback/HomeUserFeedback';
 import HomeGetStarted from '../../components/HomeComponents/HomeGetStarted/HomeGetStarted';
+import HomeOfferSection from '../../components/HomeComponents/HomeOfferSection/HomeOfferSection';
 
 const Home = () => {
     return (
         <div>
-            <Feature></Feature>
+            <HomeFeatureSection></HomeFeatureSection>
+            <HomeOfferSection></HomeOfferSection>
             <HomeSecuritySection></HomeSecuritySection>
             <HomeOperationSection></HomeOperationSection>
             <HomeUserFeedback></HomeUserFeedback>

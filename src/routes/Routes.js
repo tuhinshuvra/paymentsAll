@@ -1,6 +1,6 @@
 import MainLayout from "../layout/MainLayout";
 import AboutUs from "../views/components/HomeComponents/HomeAboutUs/AboutUs";
-import Feature from "../views/components/HomeComponents/HomeFeatureSection/Feature";
+import HomeFeatureSection from "../views/components/HomeComponents/HomeFeatureSection/HomeFeatureSection";
 import Login from "../views/pages/Authentication/Login/Login";
 import Signup from "../views/pages/Authentication/Signup/Signup";
 import Home from "../views/pages/Home/Home";
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/features",
-                element: <Feature></Feature>
+                element: <HomeFeatureSection></HomeFeatureSection>
             },
 
             {

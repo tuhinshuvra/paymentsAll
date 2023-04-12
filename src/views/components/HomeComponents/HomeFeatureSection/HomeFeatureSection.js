@@ -14,7 +14,7 @@ import Ticket from '../../../../assets/icons/ticket.png'
 import Vat from '../../../../assets/icons/vat.png'
 import Salary from '../../../../assets/icons/vat.png'
 import TravelCard from '../../../../assets/icons/vat.png'
-import './Feature.css';
+import './HomeFeatureSection.css';
 
 const Feature = () => {
     return (
