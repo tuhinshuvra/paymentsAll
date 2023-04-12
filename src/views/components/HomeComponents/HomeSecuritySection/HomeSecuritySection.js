@@ -9,12 +9,12 @@ import './HomeSecuritySection.css';
 const HomeSecuritySection = () => {
     return (
         <div className='securityBg'>
-            <div className='col-10 mx-auto py-5'>
+            <div className='col-10 mx-auto py-lg-5'>
                 <div className=' row'>
 
                     {/* secutiry types section */}
 
-                    <div className='col-6 mt-5'>
+                    <div className='col-lg-6 mt-5'>
                         <div className=' d-flex  align-items-center'>
                             <BsEmojiSmile className='security_icon'></BsEmojiSmile>
                             <div className=' my-auto ms-4'>
@@ -40,23 +40,25 @@ const HomeSecuritySection = () => {
 
                     </div>
                     {/* secutiry handle money and get started section */}
-                    <div className='col-6 mt-5'>
+                    <div className='col-lg-6 mt-5'>
                         <h1 className='securityRightTitle'>We Will Handle the Money With Safety and Security</h1>
-                        <p className='securityRightSubTitle my-5'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
+                        <p className='securityRightSubTitle my-lg-5 my-3'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
                         <Link className=' payments_btn'>Get Started Now</Link>
                     </div>
 
 
                     {/* smart control section */}
-                    <div className='col-6 mt-5'>
+                    <div className='col-lg-6 mt-5'>
                         <h1 className='securityRightTitle'>Smartly Control Your Invoices and Payments</h1>
-                        <p className='securityRightSubTitle my-5'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
+                        <p className='securityRightSubTitle my-lg-5 my-3'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
                         <Link className='payments_outLine_btn'>Learn More<AiOutlineRight /></Link>
                     </div>
 
                     {/* smart control image section */}
-                    <div className='col-6 mt-5'>
-                        <img className='securityImage' src={ImageOne} alt="" />
+                    <div className='col-lg-6 mt-5'>
+                        {/* <img className='securityImage' src={ImageOne} alt="" /> */}
+
+                        (এখানে ইমেজ বসবে)
                     </div>
                 </div>
             </div>

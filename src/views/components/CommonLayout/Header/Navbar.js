@@ -27,15 +27,13 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link onClick={() => setIsOpen(true)} className="nav_button nav-link active  text-white" aria-current="page" to="/">Home</Link>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/aboutus">About Us</Link>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item">
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/features">Features</Link>
                                     </li>
-                                    <li className="nav-item">
-                                        <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/solution">Solution</Link>
-                                    </li>
+
                                     <li className="nav-item">
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/login">Login</Link>
                                     </li>

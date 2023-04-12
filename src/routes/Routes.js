@@ -1,7 +1,6 @@
 import MainLayout from "../layout/MainLayout";
 import AboutUs from "../views/components/HomeComponents/HomeAboutUs/AboutUs";
 import Feature from "../views/components/HomeComponents/HomeFeatureSection/Feature";
-import Solution from "../views/components/HomeComponents/HomeSolutionSection/Solution";
 import Login from "../views/pages/Authentication/Login/Login";
 import Signup from "../views/pages/Authentication/Signup/Signup";
 import Home from "../views/pages/Home/Home";
@@ -25,10 +24,7 @@ const router = createBrowserRouter([
                 path: "/features",
                 element: <Feature></Feature>
             },
-            {
-                path: "/solution",
-                element: <Solution></Solution>
-            },
+
             {
                 path: "/login",
                 element: <Login></Login>

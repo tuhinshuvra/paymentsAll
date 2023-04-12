@@ -9,16 +9,17 @@ import './HomeOperationSection.css';
 const HomeOperationSection = () => {
     return (
         <div className='operionBg py-5'>
-            <div className='col-md-10 mx-auto'>
+            <div className='col-10 mx-auto'>
                 <div className='row'>
 
                     {/* operation  image section */}
-                    <div className=' col-md-6'>
-                        <img className='operionImage' src={ImageOne} alt="" />
+                    <div className=' col-lg-6'>
+                        {/* <img className='operionImage' src={ImageOne} alt="" /> */}
+                        (এখানে ইমেজ বসবে)
                     </div>
 
                     {/* operation text section */}
-                    <div className='col-6 mt-5'>
+                    <div className='col-lg-6 mt-5'>
                         <h1 className='securityRightTitle'>Most Easiest way to Operate and Use by You</h1>
                         <p className='securityRightSubTitle my-4'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
 

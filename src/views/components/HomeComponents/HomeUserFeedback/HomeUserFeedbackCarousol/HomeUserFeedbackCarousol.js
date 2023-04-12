@@ -1,6 +1,5 @@
 import React from 'react';
 import GridCarousolItem from './GridCarousolItem/GridCarousolItem';
-import { BsArrowRight, BsArrowLeft } from 'react-icons/bs';
 
 import ClientsOne from '../../../../../assets/clients/clients_1.jpg';
 import ClientsTwo from '../../../../../assets/clients/clients_2.png';
@@ -17,28 +16,28 @@ const HomeUserFeedbackCarousol = () => {
         <div className='col-10 mx-auto'>
             <div id="clientsGridCarousol" className="carousel  slide " data-bs-ride="carousel">
                 <div className="carousel-inner">
-                    <div className="carousel-item active" data-bs-interval="2000">
+                    <div className="carousel-item active" data-bs-interval="4000">
                         <GridCarousolItem
                             imgOne={ClientsOne}
                             imgTwo={ClientsTwo}
                             imgThree={ClientsThree}
                         ></GridCarousolItem>
                     </div>
-                    <div className="carousel-item" data-bs-interval="3000">
+                    <div className="carousel-item" data-bs-interval="6000">
                         <GridCarousolItem
                             imgOne={ClientsSeven}
                             imgTwo={ClientsEight}
                             imgThree={ClientsNine}
                         ></GridCarousolItem>
                     </div>
-                    <div className="carousel-item" data-bs-interval="3000">
+                    <div className="carousel-item" data-bs-interval="6000">
                         <GridCarousolItem
                             imgOne={ClientsThree}
                             imgTwo={ClientsFour}
                             imgThree={ClientsSix}
                         ></GridCarousolItem>
                     </div>
-                    <div className="carousel-item" data-bs-interval="3000">
+                    <div className="carousel-item" data-bs-interval="6000">
                         <GridCarousolItem
                             imgOne={ClientsTwo}
                             imgTwo={ClientsThree}
@@ -46,7 +45,7 @@ const HomeUserFeedbackCarousol = () => {
                         ></GridCarousolItem>
                     </div>
 
-                    <div className="carousel-item" data-bs-interval="4000">
+                    <div className="carousel-item" data-bs-interval="6000">
                         <GridCarousolItem
                             imgOne={ClientsFour}
                             imgTwo={ClientsFive}

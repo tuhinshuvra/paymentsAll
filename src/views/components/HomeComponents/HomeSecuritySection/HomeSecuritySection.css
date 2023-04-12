@@ -41,3 +41,23 @@
     font-size: 14px;
     color: #0F393B;
 }
+
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .securityRightTitle {
+        font-size: 28px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+    .securityRightTitle {
+        font-size: 24px;
+    }
+
+    .security_icon {
+        width: 120px;
+        height: 57px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,20 @@
+.getStartedBg {
+    background-color: #17434C;
+}
+
+.personIcon {
+    font-size: 40px;
+    color: orange;
+    /* background-color: rgba(255, 166, 0, 0.142); */
+
+    /* border-radius: 5px 5px 5px 60px; */
+}
+
+.getStartedSubTitle {
+    font-family: 'mastro-caption';
+    font-size: 25px;
+}
+
+.getStartedArrow {
+    margin: 7% 0;
+}
