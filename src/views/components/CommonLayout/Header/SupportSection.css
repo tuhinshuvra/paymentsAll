@@ -1,5 +1,11 @@
-.supportSection {
+.supportHomeSection {
     margin-top: -300px;
     background-color: #f8ce79;
     height: 300px;
+}
+
+.supportOtherSection {
+    margin-top: -200px;
+    background-color: #123B43;
+    height: 200px;
 }

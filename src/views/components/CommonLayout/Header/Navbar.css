@@ -1,5 +1,5 @@
 .logo {
-    width: 55px;
+    width: 115px;
 }
 
 .app_image {
@@ -67,7 +67,7 @@
     .nav_hero_bg {
         position: relative;
         background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
-        height: 782px;
+        /* height: 782px; */
         background-repeat: no-repeat;
         background-size: cover;
         clip-path: polygon(0 0%, 100% 0, 100% 75%, 0 100%);
@@ -87,7 +87,7 @@
     .nav_hero_bg {
         background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
         /* width: 99.8%; */
-        height: 545px;
+        /* height: 545px; */
         background-repeat: no-repeat;
         background-size: cover;
         /* background-position: center; */
@@ -154,7 +154,7 @@
     .nav_hero_bg {
         background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
         /* width: 99.8%; */
-        height: 492px;
+        /* height: 492px; */
         background-repeat: no-repeat;
         background-size: cover;
         /* background-position: center; */

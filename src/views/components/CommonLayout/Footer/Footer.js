@@ -17,11 +17,11 @@ const Footer = () => {
                             <div className='d-flex justify-content-center'>
                                 <Link to="/"> <img className='footer_logo' src={FooterLogo} alt="" /></Link>
                             </div>
-                            <h5 className="text-center fw-bold mt-2">Payments All</h5>
-                            <p className="text-center fw-bold mt-0">All Payments Solution in One Platform</p>
+                            <h5 className="text-center fw-bold mt-2"></h5>
+                            <p className="text-center fw-bold">All Payments Solution in One Platform</p>
                             <p className="text-center">
                                 <small>
-                                    We are Willing to Make a Cashless Society All Over The World
+
                                 </small>
                             </p>
                         </div>

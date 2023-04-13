@@ -1,0 +1,40 @@
+.secutiryTitle {
+    font-family: 'mastro-caption';
+    font-size: 24px;
+    color: #0F393B;
+    /* margin: 0; */
+}
+
+.secutirySubTitle {
+    font-family: 'mastro-caption';
+    font-size: 14px;
+    color: #0F393B;
+    /* margin: 0; */
+}
+
+.securityRightTitle {
+    font-family: 'mastro-caption';
+    font-size: 38px;
+    color: #0F393B;
+}
+
+.securityRightSubTitle {
+    font-family: 'mastro-caption';
+    font-size: 14px;
+    color: #0F393B;
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {}
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .securityRightTitle {
+        font-size: 28px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+    .securityRightTitle {
+        font-size: 24px;
+    }
+}

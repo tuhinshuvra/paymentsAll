@@ -1,0 +1,57 @@
+/* all types of button of payments all */
+.payments_btn {
+    text-decoration: none;
+    background-color: rgb(175, 5, 175);
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 10px;
+}
+
+.payments_btn:hover {
+    background-color: rgb(136, 5, 136);
+    color: white;
+}
+
+.payments_custom_btn {
+    text-decoration: none;
+    /* background-color: none; */
+    margin: 12px 0 0 0;
+    color: white;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.payments_custom_btn:hover {
+    background-color: rgb(136, 5, 136);
+    margin: 0 0 0 0;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 10px;
+}
+
+.nav_button:hover {
+    border: .05px solid rgb(125, 88, 235);
+    border-radius: 10px;
+}
+
+.payments_outLine_btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(136, 5, 136);
+    padding: 14px 24px;
+    border: 1px solid rgb(136, 5, 136);
+    border-radius: 10px;
+}
+
+.payments_outLine_btn:hover {
+    background-color: rgb(136, 5, 136);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 14px 24px;
+    border: 1px solid rgb(136, 5, 136);
+    border-radius: 10px;
+}

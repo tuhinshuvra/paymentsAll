@@ -4,12 +4,12 @@
 }
 
 .footer_logo {
-    width: 55px;
+    width: 120px;
 }
 
 .appStore {
-    width: 110px;
-    height: 35px;
+    width: 132px;
+    height: 45px;
 }
 
 
@@ -33,8 +33,8 @@
 
 
 @media (min-width: 768px) and (max-width: 1023.98px) {
-    .footer_logo {
+    /* .footer_logo {
         width: 66px;
-    }
+    } */
 
 }

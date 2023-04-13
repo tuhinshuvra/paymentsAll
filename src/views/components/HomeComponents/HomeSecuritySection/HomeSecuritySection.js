@@ -1,8 +1,9 @@
 import React from 'react';
 import { BsEmojiSmile, BsFingerprint } from 'react-icons/bs';
-import ImageOne from '../../../../assets/payments_all_app.png';
 import { TbHandFinger } from 'react-icons/tb';
 import { AiOutlineRight } from 'react-icons/ai';
+import SecurityOne from '../../../../assets/security/security_1.jpg'
+import SecurityTwo from '../../../../assets/security/security_2.jpg'
 import { Link } from 'react-router-dom';
 import './HomeSecuritySection.css';
 
@@ -13,7 +14,6 @@ const HomeSecuritySection = () => {
                 <div className=' row'>
 
                     {/* secutiry types section */}
-
                     <div className='col-lg-6 mt-5'>
                         <div className=' d-flex  align-items-center'>
                             <BsEmojiSmile className='security_icon'></BsEmojiSmile>
@@ -40,25 +40,24 @@ const HomeSecuritySection = () => {
 
                     </div>
                     {/* secutiry handle money and get started section */}
-                    <div className='col-lg-6 mt-5'>
+                    <div className='col-lg-6 my-lg-5 my-md-5 my-3 d-flex justify-content-center align-items-center  text-md-start  text-center'>
                         <h1 className='securityRightTitle'>We Will Handle the Money With Safety and Security</h1>
-                        <p className='securityRightSubTitle my-lg-5 my-3'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
-                        <Link className=' payments_btn'>Get Started Now</Link>
+                        {/* <p className='securityRightSubTitle my-lg-5 my-3'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
+                        <Link className=' payments_btn'>Get Started Now</Link> */}
                     </div>
 
 
                     {/* smart control section */}
-                    <div className='col-lg-6 mt-5'>
+                    <div className='col-lg-6 my-lg-5 d-flex justify-content-center align-items-center text-md-start  text-center'>
                         <h1 className='securityRightTitle'>Smartly Control Your Invoices and Payments</h1>
-                        <p className='securityRightSubTitle my-lg-5 my-3'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
-                        <Link className='payments_outLine_btn'>Learn More<AiOutlineRight /></Link>
+                        {/* <p className='securityRightSubTitle my-lg-5 my-3'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
+                        <Link className='payments_outLine_btn'>Learn More<AiOutlineRight /></Link> */}
                     </div>
 
                     {/* smart control image section */}
-                    <div className='col-lg-6 mt-5'>
-                        {/* <img className='securityImage' src={ImageOne} alt="" /> */}
-
-                        (এখানে ইমেজ বসবে)
+                    <div className='col-lg-6 mt-5 d-md-flex justify-content-center align-items-center text-center'>
+                        <img className='securityTwo rounded-4' src={SecurityTwo} alt="" />
+                        <img className='securityOne rounded-4 ms-md-2 mt-md-0 mt-2' src={SecurityOne} alt="" />
                     </div>
                 </div>
             </div>

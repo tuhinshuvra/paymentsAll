@@ -1,6 +1,6 @@
 .forPrevIcon {
     background-image: url('../../../../../../assets/svgIcon/left-arrow.svg') !important;
-    margin: -295px -1620px 0px 118px !important;
+    margin: -230px -1620px 0px 118px !important;
     padding: 10px 36px;
     background-color: #dff9e3;
     color: rgb(3, 75, 3) !important;
@@ -9,7 +9,7 @@
 
 .forNextIcon {
     background-image: url('../../../../../../assets/svgIcon/right-arrow.svg') !important;
-    margin: -295px -80px 0 0 !important;
+    margin: -230px -80px 0 0 !important;
     padding: 10px 36px;
     background-color: #dff9e3;
     color: rgb(3, 75, 3) !important;
@@ -64,12 +64,12 @@
 
 @media (min-width: 1024px) and (max-width: 1439.98px) {
     .forPrevIcon {
-        margin: -320px -1072px 0px 118px !important;
+        margin: -250px -1072px 0px 118px !important;
         padding: 8px 32px;
     }
 
     .forNextIcon {
-        margin: -320px 0px 0 0 !important;
+        margin: -250px 0px 0 0 !important;
         padding: 8px 32px;
     }
 }
@@ -81,25 +81,25 @@
     }
 
     .forPrevIcon {
-        margin: -231px -714px 0px 118px !important;
+        margin: -190px -714px 0px 118px !important;
 
         padding: 8px 32px;
     }
 
     .forNextIcon {
-        margin: -231px 0px 0 0 !important;
+        margin: -190px 0px 0 0 !important;
         padding: 8px 32px;
     }
 }
 
 @media (min-width: 425px) and (max-width: 767.98px) {
     .forPrevIcon {
-        margin: -276px -276px 0px 118px !important;
+        margin: -220px -276px 0px 118px !important;
         padding: 8px 32px;
     }
 
     .forNextIcon {
-        margin: -276px 30px 0 0 !important;
+        margin: -220px 30px 0 0 !important;
         padding: 8px 32px;
     }
 
@@ -111,12 +111,12 @@
 
 @media (min-width: 320px) and (max-width: 424.98px) {
     .forPrevIcon {
-        margin: -240px 0px 0px 118px !important;
+        margin: -196px 0px 0px 118px !important;
         padding: 8px 32px;
     }
 
     .forNextIcon {
-        margin: -240px 117px 0 0 !important;
+        margin: -196px 117px 0 0 !important;
         padding: 8px 32px;
     }
 

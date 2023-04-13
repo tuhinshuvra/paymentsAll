@@ -34,15 +34,15 @@ const HomeGetStarted = () => {
                         <BsArrowDown className='fs-4 text-white ' ></BsArrowDown>
                     </div>
 
-                    <div className=' col-md-3'>
+                    <div className=' col-md-3 my-sm-0 my-3'>
                         <div className="">
                             <div className=' text-center'>
-                                <BsHeadset className=' personIcon my-2'></BsHeadset>
+                                <BsHeadset className=' personIcon my-2 '></BsHeadset>
                             </div>
                             <div className="card-body d-flex text-white">
                                 <div className=' text-center'>
                                     <h5 className="getStartedSubTitle">2. Verify your identity</h5>
-                                    <p className="  mx-auto">Mobile banking, saving and investing all in one app.</p>
+                                    <p className="  mx-auto">Once you've onboarded,  upload your essential documents to verify your identity.</p>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const HomeGetStarted = () => {
                             <div className="card-body d-flex text-white">
                                 <div className=' text-center'>
                                     <h5 className="getStartedSubTitle">3. All set</h5>
-                                    <p className="  mx-auto">Once you've onvoarded, jump on a quick video call to verify your identity.</p>
+                                    <p className="  mx-auto">Mobile banking, saving, and investing all are in one app.</p>
                                 </div>
                             </div>
                         </div>

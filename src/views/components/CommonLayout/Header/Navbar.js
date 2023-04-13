@@ -1,14 +1,22 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AiOutlineRight } from 'react-icons/ai';
 import Logo from '../../../../assets/logo/payments_all_logo.png'
 import AppImage from '../../../../assets/payments_all_app.png'
 import DiscountStar from '../../../../assets/parcent-star.png'
-import { AiOutlineRight, AiFillStar } from 'react-icons/ai';
+import GooglePlayStore from "../../../../assets/apps_store/google_play_store.png";
+import AppleStore from "../../../../assets/apps_store/apple_store.png";
+import SupportHomeSection from './SupportHomeSection';
+import SupportOtherSection from './SupportOtherSection';
 import './Navbar.css';
-import SupportSection from './SupportSection';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(true);
+    console.log("Is OPen : ", isOpen);
+
+    // const navHeroRectangle = {
+    //     clipPath: "polygon(0 0%, 100% 0, 100% 70%, 0 100%)",
+    // };
 
     return (
         <div>
@@ -39,6 +47,14 @@ const Navbar = () => {
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/offers">Offers</Link>
                                     </li>
 
+                                    <li className="nav-item">
+                                        <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/safty">Safty</Link>
+                                    </li>
+
+                                    <li className="nav-item">
+                                        <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/getStarted">Get Started</Link>
+                                    </li>
+
                                     {/* <li className="nav-item">
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/login">Login</Link>
                                     </li>
@@ -66,12 +82,18 @@ const Navbar = () => {
                                 <h1 className='hero_heading my-3 '>The Next <br /><span className=' hero_text_middle'> Generation </span><br /> Payment Method</h1>
 
                                 <div className=' col-lg-8 '>
-                                    <p className='hero_sub_text my-4 text-center text-md-start '>Get the ultimate benifits of using the latest technology of Financial Management with us</p>
+                                    <p className='hero_sub_text my-4 text-center text-md-start '> We are Willing to Make a Cashless Society All Over The World</p>
                                 </div>
 
                                 <div className=' d-flex justify-content-md-start justify-content-center'>
-                                    <Link className=' payments_btn'>Get Started Now</Link>
-                                    <Link className='  ms-4 payments_custom_btn '>How it works<AiOutlineRight /></Link>
+                                    <div className="">
+                                        <a href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
+                                            <img className=" appStore mt-1" src={GooglePlayStore} alt="" />
+                                        </a>
+                                        <a className=' ms-5' href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
+                                            <img className=" appStore mt-1" src={AppleStore} alt="" />
+                                        </a>
+                                    </div>
                                 </div>
 
 
@@ -107,10 +129,14 @@ const Navbar = () => {
             }
 
             {
-                isOpen &&
-                <div>
-                    <SupportSection></SupportSection>
-                </div>
+                isOpen ?
+                    <>
+                        <SupportHomeSection></SupportHomeSection>
+                    </>
+                    :
+                    <>
+                        <SupportOtherSection></SupportOtherSection>
+                    </>
             }
 
         </div>

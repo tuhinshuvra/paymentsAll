@@ -18,7 +18,7 @@ import './HomeFeatureSection.css';
 
 const HomeFeatureSection = () => {
     return (
-        <div className='feature_bg text-center'>
+        <div className='feature_bg text-center' id='featureSection'>
             <h2 className='featureHead'>All the Features to Support <br /> Your Payment Experience</h2>
             <p className='featureSubHead'> We bring together everything that you need to use <br /> for you to experiece of financial transaction</p>
 
