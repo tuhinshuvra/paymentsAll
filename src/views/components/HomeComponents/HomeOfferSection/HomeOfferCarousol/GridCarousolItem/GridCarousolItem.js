@@ -1,7 +1,6 @@
 import React from 'react';
-import './GridCarousolItem.css';
-import { Button } from 'bootstrap';
 import { Link } from 'react-router-dom';
+import './GridCarousolItem.css';
 
 const GridCarousolItem = ({ imgOne, imgTwo, imgThree }) => {
     return (

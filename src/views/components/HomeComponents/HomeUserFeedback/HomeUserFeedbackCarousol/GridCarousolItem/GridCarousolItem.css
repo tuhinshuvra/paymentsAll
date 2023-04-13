@@ -81,24 +81,24 @@
     }
 
     .preIcon {
-        margin: -368px -872px 0px 118px !important;
+        margin: -368px -673px 0px 118px !important;
         padding: 8px 32px;
     }
 
     .nextIcon {
-        margin: -368px 136px 0 0 !important;
+        margin: -368px 20px 0 0 !important;
         padding: 8px 32px;
     }
 }
 
 @media (min-width: 425px) and (max-width: 767.98px) {
     .preIcon {
-        margin: -342px -406px 0px 118px !important;
+        margin: -342px 0px 0px 118px !important;
         padding: 8px 32px;
     }
 
     .nextIcon {
-        margin: -342px 240px 0 0 !important;
+        margin: -342px 130px 0 0 !important;
         padding: 8px 32px;
     }
 
@@ -110,12 +110,12 @@
 
 @media (min-width: 320px) and (max-width: 424.98px) {
     .preIcon {
-        margin: -338px -273px 0px 118px !important;
+        margin: -360px 44px 0px 118px !important;
         padding: 8px 32px;
     }
 
     .nextIcon {
-        margin: -338px 375px 0 0 !important;
+        margin: -360px 70px 0 0 !important;
         padding: 8px 32px;
     }
 

@@ -14,7 +14,7 @@ import OfferNine from '../../../../../assets/offer/Walton-10_Thumbnail-EN_545x31
 const HomeOfferCarousol = () => {
     return (
         <div className='col-10 mx-auto'>
-            <div id="clientsGridCarousol" className="carousel  slide " data-bs-ride="carousel">
+            <div id="offerGridCarousol" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="4000">
                         <GridCarousolItem
@@ -54,12 +54,12 @@ const HomeOfferCarousol = () => {
                     </div>
 
                 </div>
-                <button className="carousel-control-prev " type="button" data-bs-target="#clientsGridCarousol" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon preIcon" aria-hidden="true"></span>
+                <button className="carousel-control-prev " type="button" data-bs-target="#offerGridCarousol" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon forPrevIcon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next " type="button" data-bs-target="#clientsGridCarousol" data-bs-slide="next">
-                    <span className="carousel-control-next-icon nextIcon" aria-hidden="true"></span>
+                <button className="carousel-control-next " type="button" data-bs-target="#offerGridCarousol" data-bs-slide="next">
+                    <span className="carousel-control-next-icon forNextIcon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>

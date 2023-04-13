@@ -8,8 +8,8 @@ import './Navbar.css';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(true);
-    return (
 
+    return (
         <div>
             <div className='nav_hero_bg'>
 
@@ -46,10 +46,11 @@ const Navbar = () => {
                     </nav>
                 </div>
 
-                {/* Hero Section */}
 
-                {isOpen
-                    ?
+                {/* Hero Section start */}
+
+                {isOpen &&
+
                     <div className='col-md-10 mx-auto'>
                         <div className='row'>
                             <div className='col-md-7 text-white hero_area '>
@@ -86,21 +87,20 @@ const Navbar = () => {
                                         </div>
 
                                     </div>
-
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
-                    :
-                    <>
-                    </>
                 }
             </div>
-            <div className='col-md-5 d-none d-md-block'>
-                <img className='app_image' src={AppImage} alt="" />
-            </div>
+
+            {
+                isOpen &&
+                <div className='col-md-5 d-none d-md-block'>
+                    <img className='app_image' src={AppImage} alt="" />
+                </div>
+            }
+
         </div>
     );
 };
