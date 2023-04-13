@@ -12,11 +12,11 @@ import QuickPay from '../../../../assets/icons/quick_pay.png'
 import SendMoney from '../../../../assets/icons/send_money.png'
 import Ticket from '../../../../assets/icons/ticket.png'
 import Vat from '../../../../assets/icons/vat.png'
-import Salary from '../../../../assets/icons/vat.png'
+import Salary from '../../../../assets/icons/bank_transfer.png'
 import TravelCard from '../../../../assets/icons/vat.png'
 import './HomeFeatureSection.css';
 
-const Feature = () => {
+const HomeFeatureSection = () => {
     return (
         <div className='feature_bg text-center'>
             <h2 className='featureHead'>All the Features to Support <br /> Your Payment Experience</h2>
@@ -55,7 +55,7 @@ const Feature = () => {
 
                 <FeatureTopics
                     Icon={AddMoney}
-                    Topics={"Govt. Fees"}
+                    Topics={"Add Money"}
                 ></FeatureTopics>
 
                 <FeatureTopics
@@ -74,8 +74,8 @@ const Feature = () => {
                 ></FeatureTopics>
 
                 <FeatureTopics
-                    Icon={Salary}
-                    Topics={"Salary Payment"}
+                    Icon={GovtFees}
+                    Topics={"Govt Fees"}
                 ></FeatureTopics>
 
                 <FeatureTopics
@@ -88,4 +88,4 @@ const Feature = () => {
     );
 };
 
-export default Feature;
+export default HomeFeatureSection;

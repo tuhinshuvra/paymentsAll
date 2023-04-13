@@ -5,6 +5,7 @@ import AppImage from '../../../../assets/payments_all_app.png'
 import DiscountStar from '../../../../assets/parcent-star.png'
 import { AiOutlineRight, AiFillStar } from 'react-icons/ai';
 import './Navbar.css';
+import SupportSection from './SupportSection';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(true);
@@ -35,11 +36,15 @@ const Navbar = () => {
                                     </li>
 
                                     <li className="nav-item">
+                                        <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/offers">Offers</Link>
+                                    </li>
+
+                                    {/* <li className="nav-item">
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/login">Login</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/signup">Signup</Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -70,7 +75,7 @@ const Navbar = () => {
                                 </div>
 
 
-                                <div className='col-md-11 me-auto px-2 px-md-0'>
+                                <div className='col-md-9 me-auto px-2 px-md-0'>
                                     <div className='d-flex justify-content-md-between justify-content-center my-5'>
 
                                         <div className='text-center'>
@@ -98,6 +103,13 @@ const Navbar = () => {
                 isOpen &&
                 <div className='col-md-5 d-none d-md-block'>
                     <img className='app_image' src={AppImage} alt="" />
+                </div>
+            }
+
+            {
+                isOpen &&
+                <div>
+                    <SupportSection></SupportSection>
                 </div>
             }
 
