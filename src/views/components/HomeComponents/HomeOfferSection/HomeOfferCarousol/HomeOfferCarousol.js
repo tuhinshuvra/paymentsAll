@@ -1,15 +1,15 @@
 import React from 'react';
 import GridCarousolItem from './GridCarousolItem/GridCarousolItem';
 
-import OfferOne from '../../../../../assets/offer/Add-Money-from-Mastercard_Thmbnail_EN_545X310.jpg';
-import OfferTwo from '../../../../../assets/offer/BD-Railway_Thumbnail-EN_545x310.jpg';
-import OfferThree from '../../../../../assets/offer/SSL-Eid-Campaign_Thumbnail-EN_545x310.jpg';
-import OfferFour from '../../../../../assets/offer/Walton-10_Thumbnail-EN_545x310.jpg';
-import OfferFive from '../../../../../assets/offer/Web-Banner-Thum-Eng_545X310.jpg';
-import OfferSix from '../../../../../assets/offer/SSL-Eid-Campaign_Thumbnail-EN_545x310.jpg';
-import OfferSeven from '../../../../../assets/offer/Add-Money-from-Mastercard_Thmbnail_EN_545X310.jpg';
-import OfferEight from '../../../../../assets/offer/Walton-10_Thumbnail-EN_545x310.jpg';
-import OfferNine from '../../../../../assets/offer/Walton-10_Thumbnail-EN_545x310.jpg';
+import OfferOne from '../../../../../assets/offer/1.jpg';
+import OfferTwo from '../../../../../assets/offer/3-01.jpg';
+import OfferThree from '../../../../../assets/offer/4-01.jpg';
+import OfferFour from '../../../../../assets/offer/5-01.jpg';
+import OfferFive from '../../../../../assets/offer/6-01.jpg';
+import OfferSix from '../../../../../assets/offer/1.jpg';
+import OfferSeven from '../../../../../assets/offer/3-01.jpg';
+import OfferEight from '../../../../../assets/offer/4-01.jpg';
+import OfferNine from '../../../../../assets/offer/6-01.jpg';
 
 const HomeOfferCarousol = () => {
     return (

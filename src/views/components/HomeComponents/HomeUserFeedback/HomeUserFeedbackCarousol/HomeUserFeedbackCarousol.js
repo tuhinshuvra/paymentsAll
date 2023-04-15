@@ -16,32 +16,44 @@ const HomeUserFeedbackCarousol = () => {
         <div className='col-10 mx-auto'>
             <div id="clientsGridCarousol" className="carousel  slide " data-bs-ride="carousel">
                 <div className="carousel-inner">
-                    <div className="carousel-item active" data-bs-interval="4000">
+                    <div className="carousel-item active" data-bs-interval="4000"  >
                         <GridCarousolItem
                             imgOne={ClientsOne}
                             imgTwo={ClientsTwo}
                             imgThree={ClientsThree}
+                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
+                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
+                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
                         ></GridCarousolItem>
                     </div>
-                    <div className="carousel-item" data-bs-interval="6000">
+                    <div className="carousel-item" data-bs-interval="6000"  >
                         <GridCarousolItem
                             imgOne={ClientsSeven}
                             imgTwo={ClientsEight}
                             imgThree={ClientsNine}
+                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
+                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
+                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
                         ></GridCarousolItem>
                     </div>
-                    <div className="carousel-item" data-bs-interval="6000">
+                    <div className="carousel-item" data-bs-interval="6000"  >
                         <GridCarousolItem
                             imgOne={ClientsThree}
                             imgTwo={ClientsFour}
                             imgThree={ClientsSix}
+                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
+                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
+                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
                         ></GridCarousolItem>
                     </div>
-                    <div className="carousel-item" data-bs-interval="6000">
+                    <div className="carousel-item" data-bs-interval="6000"  >
                         <GridCarousolItem
                             imgOne={ClientsTwo}
                             imgTwo={ClientsThree}
                             imgThree={ClientsFour}
+                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
+                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
+                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
                         ></GridCarousolItem>
                     </div>
 
@@ -50,6 +62,9 @@ const HomeUserFeedbackCarousol = () => {
                             imgOne={ClientsFour}
                             imgTwo={ClientsFive}
                             imgThree={ClientsSix}
+                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
+                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
+                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
                         ></GridCarousolItem>
                     </div>
 

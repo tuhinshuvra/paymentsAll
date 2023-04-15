@@ -2,12 +2,12 @@ import React from 'react';
 import { ImQuotesLeft } from 'react-icons/im';
 import './GridCarousolItem.css';
 
-const GridCarousolItem = ({ imgOne, imgTwo, imgThree }) => {
+const GridCarousolItem = ({ imgOne, imgTwo, imgThree, userDataOne, userDataTwo, userDataThree }) => {
     return (
         <div className="container">
             <div className="row gx-5">
-                <div className="col">
-                    <div className="carsosolItemArea shadow">
+                <div className="col shadow py-3">
+                    <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repudiandae voluptatum Distinctio </p>
                         <div className=" d-flex">
@@ -19,27 +19,29 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree }) => {
                         </div>
                     </div>
                 </div>
-                <div className="col d-none d-md-block">
-                    <div className="carsosolItemArea shadow">
+
+                <div className="col d-none d-md-block shadow py-3">
+                    <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repudiandae voluptatum Distinctio </p>
                         <div className=" d-flex">
                             <img className="feedbackUser" src={imgTwo} alt="Card_image_cap" />
                             <div className='ms-2 feedbackUserName'>
-                                <p className='feedbackUserName'>Harun Shake</p>
-                                <p className='feedbackUserDesig'>CEO, Global Group</p>
+                                <p className='feedbackUserName'>Md. Harun Molla</p>
+                                <p className='feedbackUserDesig'>CEO, GBL</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="col d-none d-xl-block">
-                    <div className="carsosolItemArea shadow">
+
+                <div className="col d-none d-xl-block shadow py-3">
+                    <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repudiandae voluptatum Distinctio </p>
                         <div className=" d-flex">
                             <img className="feedbackUser" src={imgThree} alt="Card_image_cap" />
                             <div className='ms-2 feedbackUserName'>
-                                <p className='feedbackUserName'>Arun Kumar</p>
+                                <p className='feedbackUserName'>Depeka Rani</p>
                                 <p className='feedbackUserDesig'>Manager, AB Bank</p>
                             </div>
                         </div>

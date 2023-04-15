@@ -27,18 +27,18 @@ const HomeSecuritySection = () => {
                             <BsEmojiSmile className='security_icon'></BsEmojiSmile>
                             <div className=' my-auto ms-4'>
                                 <p className='secutiryTitle'>Face Scan Security</p>
-                                <p className='secutirySubTitle'>We will provide face scan security with the latest password-secured technology in our system</p>
+                                <p className='secutirySubTitle'>We provide face scan security with the latest password secure technology in our system</p>
                             </div>
                         </div>
-
 
                         <div className=' d-flex  align-items-center'>
                             <BsFingerprint className='security_icon'></BsFingerprint>
                             <div className=' my-auto ms-4'>
                                 <p className='secutiryTitle'>Finger Scan Security</p>
-                                <p className='secutirySubTitle'>We will provide finger scan security with the latest password-secured technology in our system</p>
+                                <p className='secutirySubTitle'>We provide finger scan security with the latest password secured technology in our system</p>
                             </div>
                         </div>
+
                         <div className=' d-flex  align-items-center'>
                             <RiLockPasswordFill className='security_icon'></RiLockPasswordFill>
                             <div className=' my-auto ms-4'>
