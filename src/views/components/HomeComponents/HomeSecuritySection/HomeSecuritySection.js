@@ -13,6 +13,13 @@ const HomeSecuritySection = () => {
             <div className='col-10 mx-auto py-lg-5'>
                 <div className=' row'>
 
+
+                    {/* secutiry handle money and get started section */}
+                    <div className='col-lg-6  d-flex justify-content-center align-items-center  text-md-start  text-center'>
+                        <h1 className='securityRightTitle my-4'>We Will Handle the Money With Safety and Security</h1>
+                    </div>
+
+
                     {/* secutiry types section */}
                     <div className='col-lg-6 mt-5'>
                         <div className=' d-flex  align-items-center'>
@@ -39,26 +46,29 @@ const HomeSecuritySection = () => {
                         </div>
 
                     </div>
-                    {/* secutiry handle money and get started section */}
-                    <div className='col-lg-6 my-lg-5 my-md-5 my-3 d-flex justify-content-center align-items-center  text-md-start  text-center'>
-                        <h1 className='securityRightTitle'>We Will Handle the Money With Safety and Security</h1>
-                        {/* <p className='securityRightSubTitle my-lg-5 my-3'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
-                        <Link className=' payments_btn'>Get Started Now</Link> */}
+
+                    {/* smart control section for mobile screen show */}
+                    <div className='col-lg-6 mt-sm-5 mt-lg-0  text-md-start  text-cente d-block d-lg-none'>
+                        <h1 className='securityRightTitle text-center text-md-start '>Smartly Control Your Invoices and Payments</h1>
                     </div>
 
 
-                    {/* smart control section */}
-                    <div className='col-lg-6 my-lg-5 d-flex justify-content-center align-items-center text-md-start  text-center'>
-                        <h1 className='securityRightTitle'>Smartly Control Your Invoices and Payments</h1>
-                        {/* <p className='securityRightSubTitle my-lg-5 my-3'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
-                        <Link className='payments_outLine_btn'>Learn More<AiOutlineRight /></Link> */}
-                    </div>
 
                     {/* smart control image section */}
-                    <div className='col-lg-6 mt-5 d-md-flex justify-content-center align-items-center text-center'>
+
+                    <div className='col-lg-6 text-center flex-md-row-reverse mb-5 mb-lg-0'>
                         <img className='securityTwo rounded-4' src={SecurityTwo} alt="" />
-                        <img className='securityOne rounded-4 ms-md-2 mt-md-0 mt-2' src={SecurityOne} alt="" />
+                        <img className='securityOne rounded-4' src={SecurityOne} alt="" />
                     </div>
+
+                    {/* smart control section fon large screen show */}
+                    <div className=' col-lg-6  d-flex justify-content-center  align-items-center'>
+                        <div className='text-md-start  text-cente d-none d-lg-block '>
+                            <h1 className='securityRightTitle text-center text-md-start '>Smartly Control Your Invoices and Payments</h1>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>

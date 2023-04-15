@@ -17,13 +17,7 @@ const Footer = () => {
                             <div className='d-flex justify-content-center'>
                                 <Link to="/"> <img className='footer_logo' src={FooterLogo} alt="" /></Link>
                             </div>
-                            <h5 className="text-center fw-bold mt-2"></h5>
                             <p className="text-center fw-bold">All Payments Solution in One Platform</p>
-                            <p className="text-center">
-                                <small>
-
-                                </small>
-                            </p>
                         </div>
 
                         <div className="col-6 col-lg-2 col-md-3 ">
@@ -34,9 +28,9 @@ const Footer = () => {
                                 </div>
 
                                 <ul className="nav flex-column">
-                                    <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold">Offers</Link></li>
+                                    <li className="mb-2 text-center"><Link to="/offers" className="  footer_btn fw-bold">Offers</Link></li>
                                     <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold"> Partners</Link></li>
-                                    <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold"> Services</Link></li>
+                                    <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold">Services</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -44,7 +38,7 @@ const Footer = () => {
                         <div className="col-6 col-lg-2 col-md-3">
                             <h5 className='text-center '>Features</h5>
                             <ul className="nav flex-column">
-                                <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold">Features</Link></li>
+                                <li className="mb-2 text-center"><Link to="/features" className="  footer_btn fw-bold">Features</Link></li>
                                 <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold">My Jobs Panel</Link></li>
                                 <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold">List of Features</Link></li>
                             </ul>
@@ -53,8 +47,8 @@ const Footer = () => {
                         <div className="col-6 col-lg-2 col-md-3">
                             <h5 className='text-center'>Services</h5>
                             <ul className="nav flex-column">
-                                <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold">Services</Link></li>
-                                <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold">FAQ</Link></li>
+                                <li className="mb-2 text-center"><Link to="/safty" className="  footer_btn fw-bold">Safty</Link></li>
+                                <li className="mb-2 text-center"><Link to="/getStarted" className="  footer_btn fw-bold">Get Started</Link></li>
                                 <li className="mb-2 text-center"><Link to="/" className="  footer_btn fw-bold">About</Link></li>
                             </ul>
                         </div>

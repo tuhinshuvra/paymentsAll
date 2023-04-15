@@ -10,7 +10,7 @@ const HomeGetStarted = () => {
         <div className='getStartedBg py-5'>
             <div className='col-10 mx-auto'>
 
-                <h1 className='securityRightTitle  text-center text-white my-3'>Get Started in Minutes</h1>
+                <h1 className='securityRightTitle  text-center my-3'>Get Started in Minutes</h1>
 
                 <div className=' d-md-flex justify-content-around mt-5'>
                     <div className=' col-md-3'>

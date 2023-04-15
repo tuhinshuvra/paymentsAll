@@ -62,6 +62,15 @@
     border-radius: 50px;
 }
 
+.carousel-inner>.item {
+    position: relative !important;
+    display: none;
+    -webkit-transition: 5s ease-in-out left !important;
+    -moz-transition: 5s ease-in-out left !important;
+    -o-transition: 5s ease-in-out left !important;
+    transition: 5s ease-in-out left !important;
+}
+
 @media (min-width: 1024px) and (max-width: 1439.98px) {
     .forPrevIcon {
         margin: -250px -1072px 0px 118px !important;

@@ -1,10 +1,13 @@
-.operionBg {
+.opertionBg {
     background-color: #EBE8E0;
+    padding: 100px 0;
 }
 
 .operionImage {
-    width: 330px;
-    margin: 12% 25%;
+    width: 275px;
+    /* margin: 12% 25%; */
+    border-radius: 15px;
+    border: 2px solid gold;
 }
 
 .operationIcon {
@@ -14,4 +17,18 @@
     color: green;
     border-radius: 10px;
     padding: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .opertionBg {
+        padding: 60px 0;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .opertionBg {
+        padding: 30px 0;
+    }
+
 }

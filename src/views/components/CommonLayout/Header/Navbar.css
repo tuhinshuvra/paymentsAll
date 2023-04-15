@@ -11,6 +11,11 @@
     top: 0;
 }
 
+.appPlayStore {
+    width: 175px;
+}
+
+
 
 .nav_hero_bg {
     position: relative;
@@ -45,6 +50,7 @@
     font-family: "mastro-caption";
     font-size: 66px;
     /* font-weight: 600; */
+
     line-height: 66px;
 }
 
@@ -54,7 +60,7 @@
 }
 
 .hero_text_middle {
-    color: gold;
+    color: #e86468;
 }
 
 .timmer_counter_number {
@@ -102,6 +108,11 @@
         left: 0;
         top: 0;
     }
+
+    .appPlayStore {
+        width: 135px;
+    }
+
 
     .hero_heading {
         font-size: 37px;
@@ -211,5 +222,10 @@
         padding: 6px 8px;
         border: none;
     }
+
+    .appPlayStore {
+        width: 125px;
+    }
+
 
 }

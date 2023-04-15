@@ -8,8 +8,7 @@
 }
 
 .appStore {
-    width: 132px;
-    height: 45px;
+    width: 135px;
 }
 
 
@@ -33,8 +32,15 @@
 
 
 @media (min-width: 768px) and (max-width: 1023.98px) {
-    /* .footer_logo {
-        width: 66px;
+    /* .appStore {
+        width: 135px;
     } */
+
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .appStore {
+        width: 125px;
+    }
 
 }

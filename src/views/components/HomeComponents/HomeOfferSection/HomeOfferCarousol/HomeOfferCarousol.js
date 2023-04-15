@@ -16,7 +16,7 @@ const HomeOfferCarousol = () => {
         <div className='col-10 mx-auto'>
             <div id="offerGridCarousol" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
-                    <div className="carousel-item active" data-bs-interval="4000">
+                    <div className="carousel-item active shadow" data-bs-interval="4000">
                         <GridCarousolItem
                             imgOne={OfferOne}
                             imgTwo={OfferTwo}

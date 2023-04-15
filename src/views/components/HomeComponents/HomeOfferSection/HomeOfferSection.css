@@ -1,3 +1,11 @@
 .offerBg {
     background-color: rgba(255, 166, 0, 0.169);
+    padding: 40px 0 90px 0;
+}
+
+@media (min-width: 320px) and (max-width: 424.98px) {
+
+    .offerBg {
+        padding: 0 0 35px 0;
+    }
 }

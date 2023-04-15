@@ -13,7 +13,7 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree }) => {
                         <div className=" d-flex">
                             <img className="feedbackUser" src={imgOne} alt="Card_image_cap" />
                             <div className='ms-2 feedbackUserName'>
-                                <p className='feedbackUserName'>Harun Shake</p>
+                                <p className='feedbackUserName'>Mohammad Karim</p>
                                 <p className='feedbackUserDesig'>CEO, Global Group</p>
                             </div>
                         </div>
@@ -39,8 +39,8 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree }) => {
                         <div className=" d-flex">
                             <img className="feedbackUser" src={imgThree} alt="Card_image_cap" />
                             <div className='ms-2 feedbackUserName'>
-                                <p className='feedbackUserName'>Harun Shake</p>
-                                <p className='feedbackUserDesig'>CEO, Global Group</p>
+                                <p className='feedbackUserName'>Arun Kumar</p>
+                                <p className='feedbackUserDesig'>Manager, AB Bank</p>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageOne from '../../../../assets/payments_all_app.png';
+import OperationImage from '../../../../assets/paymentsAllOperation.jpg';
 import { FaAnchor } from 'react-icons/fa';
 import { BsFillHddStackFill, BsHandThumbsUpFill } from 'react-icons/bs';
 import { GiConvergenceTarget } from 'react-icons/gi';
@@ -8,24 +8,23 @@ import './HomeOperationSection.css';
 
 const HomeOperationSection = () => {
     return (
-        <div className='operionBg py-5'>
+        <div className='opertionBg'>
             <div className='col-10 mx-auto'>
                 <div className='row'>
 
                     {/* operation  image section */}
-                    <div className=' col-lg-6'>
-                        {/* <img className='operionImage' src={ImageOne} alt="" /> */}
-                        (এখানে ইমেজ বসবে)
+                    <div className=' col-lg-6 d-flex justify-content-center align-items-center'>
+                        <img className='operionImage  d-none d-md-block' src={OperationImage} alt="" />
                     </div>
 
                     {/* operation text section */}
-                    <div className='col-lg-6 mt-5'>
-                        <h1 className='securityRightTitle'>Most Easiest way to Operate and Use by You</h1>
-                        <p className='securityRightSubTitle my-4'>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
+                    <div className='col-lg-6'>
+                        <h1 className='securityRightTitle mt-lg-0 mt-sm-4 mt-0 text-center text-md-start'>The Easiest Way to Operate and Use by You</h1>
+                        <p className='securityRightSubTitle my-4 text-center text-md-start '>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
 
 
                         {/* operation segments */}
-                        <div className=' row'>
+                        <div className=' row text-center text-md-start'>
                             <div className=' col-md-6'>
                                 <FaAnchor className='operationIcon'></FaAnchor>
                                 <p className='fw-bold'>Integrate</p>

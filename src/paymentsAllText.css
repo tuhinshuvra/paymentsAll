@@ -15,7 +15,7 @@
 .securityRightTitle {
     font-family: 'mastro-caption';
     font-size: 38px;
-    color: #0F393B;
+    color: #e75055;
 }
 
 .securityRightSubTitle {
@@ -35,6 +35,7 @@
 
 @media (min-width: 320px) and (max-width: 424.98px) {
     .securityRightTitle {
-        font-size: 24px;
+        font-size: 26px;
     }
+
 }

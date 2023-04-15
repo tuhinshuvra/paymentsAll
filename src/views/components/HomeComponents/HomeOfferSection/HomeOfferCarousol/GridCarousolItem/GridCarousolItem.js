@@ -7,7 +7,7 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree }) => {
         <div className="container">
             <div className="row gx-5">
                 <div className="col">
-                    <div className=" shadow">
+                    <div className="">
                         <img className=" img-fluid rounded-3 " src={imgOne} alt="Card_image_cap" />
 
                         {/* <div className='text-center'>
