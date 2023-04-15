@@ -2,6 +2,7 @@ import React from 'react';
 import { BsEmojiSmile, BsFingerprint } from 'react-icons/bs';
 import { TbHandFinger } from 'react-icons/tb';
 import { AiOutlineRight } from 'react-icons/ai';
+import { RiLockPasswordFill } from 'react-icons/ri';
 import SecurityOne from '../../../../assets/security/security_1.jpg'
 import SecurityTwo from '../../../../assets/security/security_2.jpg'
 import { Link } from 'react-router-dom';
@@ -26,25 +27,33 @@ const HomeSecuritySection = () => {
                             <BsEmojiSmile className='security_icon'></BsEmojiSmile>
                             <div className=' my-auto ms-4'>
                                 <p className='secutiryTitle'>Face Scan Security</p>
-                                <p className='secutirySubTitle'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, fugit elit. Blanditiis, fugit</p>
+                                <p className='secutirySubTitle'>We will provide face scan security with the latest password-secured technology in our system</p>
                             </div>
                         </div>
+
 
                         <div className=' d-flex  align-items-center'>
                             <BsFingerprint className='security_icon'></BsFingerprint>
                             <div className=' my-auto ms-4'>
                                 <p className='secutiryTitle'>Finger Scan Security</p>
-                                <p className='secutirySubTitle'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, fugit elit. Blanditiis, fugit</p>
+                                <p className='secutirySubTitle'>We will provide finger scan security with the latest password-secured technology in our system</p>
                             </div>
                         </div>
+                        <div className=' d-flex  align-items-center'>
+                            <RiLockPasswordFill className='security_icon'></RiLockPasswordFill>
+                            <div className=' my-auto ms-4'>
+                                <p className='secutiryTitle'>Password Security</p>
+                                <p className='secutirySubTitle'>Here your password will be provided with the latest password-secured technology in our system</p>
+                            </div>
+                        </div>
+
                         <div className=' d-flex  align-items-center'>
                             <TbHandFinger className='security_icon'></TbHandFinger>
                             <div className=' my-auto ms-4'>
                                 <p className='secutiryTitle'>Tap Balance Transfer</p>
-                                <p className='secutirySubTitle'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, fugit elit. Blanditiis, fugit</p>
+                                <p className='secutirySubTitle'>We will provide secured tab balance transfer security with the latest technology in our system</p>
                             </div>
                         </div>
-
                     </div>
 
                     {/* smart control section for mobile screen show */}

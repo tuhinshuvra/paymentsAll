@@ -27,14 +27,20 @@ const HomeOperationSection = () => {
                         <div className=' row text-center text-md-start'>
                             <div className=' col-md-6'>
                                 <FaAnchor className='operationIcon'></FaAnchor>
-                                <p className='fw-bold'>Integrate</p>
-                                <p className=' col-md-10'> Integrate your transactions in real time with our latest technology and system</p>
+                                <p className='fw-bold'>Transection</p>
+                                <p className=' col-md-10'>This is the easiest way for money to transition from user to user, User to the bank, and bank to the user.</p>
                             </div>
 
                             <div className=' col-md-6'>
                                 <BsFillHddStackFill className='operationIcon'></BsFillHddStackFill>
-                                <p className='fw-bold'>Analyze</p>
-                                <p className=' col-md-10'> Integrate your transactions in real time with our latest technology and system</p>
+                                <p className='fw-bold'>Salary Payroll</p>
+                                <p className=' col-md-10'>This system is a easiest payment system with many new features. Anyone can easily use this system.</p>
+                            </div>
+
+                            <div className=' col-md-6'>
+                                <BsHandThumbsUpFill className='operationIcon'></BsHandThumbsUpFill>
+                                <p className='fw-bold'>Solutions</p>
+                                <p className=' col-md-10'>It provides solutions to problems like salary payments and travel cards. By using this app anyone can easily travel to any country.</p>
                             </div>
 
                             <div className=' col-md-6'>
@@ -43,11 +49,6 @@ const HomeOperationSection = () => {
                                 <p className=' col-md-10'> Integrate your transactions in real time with our latest technology and system</p>
                             </div>
 
-                            <div className=' col-md-6'>
-                                <BsHandThumbsUpFill className='operationIcon'></BsHandThumbsUpFill>
-                                <p className='fw-bold'>Solutions</p>
-                                <p className=' col-md-10'> Integrate your transactions in real time with our latest technology and system</p>
-                            </div>
 
                         </div>
 
