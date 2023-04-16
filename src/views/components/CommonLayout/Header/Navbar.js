@@ -85,15 +85,15 @@ const Navbar = () => {
                                     <p className='hero_sub_text my-4 text-center text-md-start '> We are Willing to Make a Cashless Society All Over The World</p>
                                 </div>
 
-                                <div className=' d-flex justify-content-md-start justify-content-center'>
-                                    <div className="">
-                                        <a href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
-                                            <img className=" appPlayStore mt-1" src={GooglePlayStore} alt="" />
-                                        </a>
-                                        <a className=' ms-lg-5 ms-3' href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
-                                            <img className=" appPlayStore mt-1" src={AppleStore} alt="" />
-                                        </a>
-                                    </div>
+
+                                {/* app store logo */}
+                                <div className="  text-center text-md-start">
+                                    <a href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
+                                        <img className=" appPlayStore mt-1" src={GooglePlayStore} alt="" />
+                                    </a>
+                                    <a className=' ms-1 ' href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
+                                        <img className=" appPlayStore mt-1" src={AppleStore} alt="" />
+                                    </a>
                                 </div>
 
 

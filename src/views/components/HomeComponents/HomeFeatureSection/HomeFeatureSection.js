@@ -1,5 +1,10 @@
 import React from 'react';
 import FeatureTopics from './FeatureSingleTopics/FeatureSingleTopics';
+import {
+    MdInstallMobile, MdPermPhoneMsg, MdCreditCard, MdBolt, MdOutlineReceipt, MdAccountBalance,
+    MdMobileFriendly, MdOutlineBookOnline, MdOutlineHowToVote, MdAssuredWorkload, MdWallet
+} from 'react-icons/md';
+import { GiReceiveMoney } from 'react-icons/gi';
 
 import AddMoney from '../../../../assets/icons/add_money.png'
 import BankTransfer from '../../../../assets/icons/bank_transfer.png'
@@ -23,66 +28,67 @@ const HomeFeatureSection = () => {
             <p className='featureSubHead animate_right' > We bring together everything that you need to use <br /> for you to experiece of financial transaction</p>
 
             <div className='feature_items col-10 mx-auto animate_bottom'>
-                <FeatureTopics
-                    Icon={AddMoney}
-                    Topics={"Add Money"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <MdInstallMobile className='featureIcon' />
+                    <p className='featureTopics'>Add Monew</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={MoneyRecharge}
-                    Topics={"Mobile Resharge"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <MdPermPhoneMsg className='featureIcon' />
+                    <p className='featureTopics'>Mobile Recharge</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={TravelCard}
-                    Topics={"Travel Card"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <MdCreditCard className='featureIcon' />
+                    <p className='featureTopics'>Travel Card</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={QuickPay}
-                    Topics={"Quick Pay"}
-                ></FeatureTopics>
 
-                <FeatureTopics
-                    Icon={BillPay}
-                    Topics={"Bill Pay"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <MdBolt className='featureIcon' />
+                    <p className='featureTopics'>Quick Pay</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={BankTransfer}
-                    Topics={"Bank Transfer"}
-                ></FeatureTopics>
 
-                <FeatureTopics
-                    Icon={AddMoney}
-                    Topics={"Add Money"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <MdOutlineReceipt className='featureIcon' />
+                    <p className='featureTopics'>Bill Pay</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={MobileBank}
-                    Topics={"Mobile Banking"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <MdAccountBalance className='featureIcon' />
+                    <p className='featureTopics'>Bank Transfer</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={Ticket}
-                    Topics={"Ticketing"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <GiReceiveMoney className='featureIcon' />
+                    <p className='featureTopics'>E Loan</p>
+                </div>
+                <div className='featureTopicsArea'>
+                    <MdMobileFriendly className='featureIcon' />
+                    <p className='featureTopics'>Mobile Banking</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={AddMoney}
-                    Topics={"Donation"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <MdOutlineBookOnline className='featureIcon' />
+                    <p className='featureTopics'>Ticketing</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={GovtFees}
-                    Topics={"Govt Fees"}
-                ></FeatureTopics>
+                <div className='featureTopicsArea'>
+                    <MdOutlineHowToVote className='featureIcon' />
+                    <p className='featureTopics'>Donation</p>
+                </div>
 
-                <FeatureTopics
-                    Icon={Ticket}
-                    Topics={"Ticketing"}
-                ></FeatureTopics>
 
+                <div className='featureTopicsArea'>
+                    <MdAssuredWorkload className='featureIcon' />
+                    <p className='featureTopics'>Govt Fees</p>
+                </div>
+
+                <div className='featureTopicsArea'>
+                    <MdWallet className='featureIcon' />
+                    <p className='featureTopics'>Salary Pay</p>
+                </div>
             </div>
         </div>
     );

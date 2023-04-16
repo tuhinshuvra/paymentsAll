@@ -3,11 +3,10 @@
     padding: 100px 0;
 }
 
-.operionImage {
-    width: 275px;
-    /* margin: 12% 25%; */
+.opertionImage {
     border-radius: 15px;
-    border: 2px solid gold;
+    width: 410px;
+    border-radius: 15px;
 }
 
 .operationIcon {

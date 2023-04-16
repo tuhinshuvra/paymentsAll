@@ -2,11 +2,12 @@ import React from 'react';
 import { ImQuotesLeft } from 'react-icons/im';
 import './GridCarousolItem.css';
 
-const GridCarousolItem = ({ imgOne, imgTwo, imgThree, userDataOne, userDataTwo, userDataThree }) => {
+const GridCarousolItem = ({ imgOne, imgTwo, imgThree, userNameOne, userDesigOne, userFeedbackOne, userNameTwo, userDesigTwo, userFeedbackTwo, userNameThree, userDesigThree, userFeedbackThree }) => {
+
     return (
         <div className="container">
             <div className="row gx-5">
-                <div className="col shadow py-3">
+                <div className="col   py-3">
                     <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repudiandae voluptatum Distinctio </p>
@@ -20,7 +21,7 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree, userDataOne, userDataTwo, 
                     </div>
                 </div>
 
-                <div className="col d-none d-md-block shadow py-3">
+                <div className="col d-none d-md-block   py-3">
                     <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repudiandae voluptatum Distinctio </p>
@@ -34,7 +35,7 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree, userDataOne, userDataTwo, 
                     </div>
                 </div>
 
-                <div className="col d-none d-xl-block shadow py-3">
+                <div className="col d-none d-xl-block   py-3">
                     <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repudiandae voluptatum Distinctio </p>

@@ -19,52 +19,92 @@ const HomeUserFeedbackCarousol = () => {
                     <div className="carousel-item active" data-bs-interval="4000"  >
                         <GridCarousolItem
                             imgOne={ClientsOne}
+                            userNameOne={"Mohammad Karim"}
+                            userDesigOne={"CEO, Global Group"}
+                            userFeedbackOne="This app is most user frieldly and easy to access and first loading app, I am one of fans of this app."
+
                             imgTwo={ClientsTwo}
+                            userNameTwo={"Md Mohib Billah"}
+                            userDesigTwo={"Manager, Arman Tech"}
+                            userFeedbackTwo="I am very much satisfied whth this app and I adviced my frieds to use this app all time.I love this app."
+
                             imgThree={ClientsThree}
-                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
-                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
-                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
+                            userNameThree={"Md. Gias Uddin"}
+                            userDesigThree={"CEO, Jamuna Group"}
+                            userFeedbackThree="At first when I heard about this app after from I am every day using this app. A adviced everybody to use this. "
+                        ></GridCarousolItem>
+                    </div>
+                    <div className="carousel-item" data-bs-interval="6000"  >
+                        <GridCarousolItem
+                            imgOne={ClientsFour}
+                            userNameOne={"Mohammad Hasan"}
+                            userDesigOne={"CEO, Global Group"}
+                            userFeedbackOne="This app is most user frieldly and easy to access and first loading app, I am one of fans of this app."
+
+                            imgTwo={ClientsFive}
+                            userNameTwo={"Chowdhury Kamal"}
+                            userDesigTwo={"Manager, Arman Tech"}
+                            userFeedbackTwo="I am very much satisfied whth this app and I adviced my frieds to use this app all time.I love this app."
+
+                            imgThree={ClientsSix}
+                            userNameThree={"Md. Jamal Uddin"}
+                            userDesigThree={"CEO, Jamuna Group"}
+                            userFeedbackThree="At first when I heard about this app after from I am every day using this app. A adviced everybody to use this. "
                         ></GridCarousolItem>
                     </div>
                     <div className="carousel-item" data-bs-interval="6000"  >
                         <GridCarousolItem
                             imgOne={ClientsSeven}
+                            userNameOne={"Bikash Chandro"}
+                            userDesigOne={"CEO, Global Group"}
+                            userFeedbackOne="This app is most user frieldly and easy to access and first loading app, I am one of fans of this app."
+
                             imgTwo={ClientsEight}
+                            userNameTwo={"Md Lord Arefin"}
+                            userDesigTwo={"Manager, Arman Tech"}
+                            userFeedbackTwo="I am very much satisfied whth this app and I adviced my frieds to use this app all time.I love this app."
+
                             imgThree={ClientsNine}
-                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
-                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
-                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
+                            userNameThree={"Md. ParveJ kamal"}
+                            userDesigThree={"CEO, Jamuna Group"}
+                            userFeedbackThree="At first when I heard about this app after from I am every day using this app. A adviced everybody to use this. "
                         ></GridCarousolItem>
                     </div>
                     <div className="carousel-item" data-bs-interval="6000"  >
                         <GridCarousolItem
-                            imgOne={ClientsThree}
-                            imgTwo={ClientsFour}
-                            imgThree={ClientsSix}
-                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
-                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
-                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
-                        ></GridCarousolItem>
-                    </div>
-                    <div className="carousel-item" data-bs-interval="6000"  >
-                        <GridCarousolItem
-                            imgOne={ClientsTwo}
-                            imgTwo={ClientsThree}
-                            imgThree={ClientsFour}
-                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
-                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
-                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
+                            imgOne={ClientsOne}
+                            userNameOne={"Mohammad Karim"}
+                            userDesigOne={"CEO, Global Group"}
+                            userFeedbackOne="This app is most user frieldly and easy to access and first loading app, I am one of fans of this app."
+
+                            imgTwo={ClientsTwo}
+                            userNameTwo={"Md Mohib Billah"}
+                            userDesigTwo={"Manager, Arman Tech"}
+                            userFeedbackTwo="I am very much satisfied whth this app and I adviced my frieds to use this app all time.I love this app."
+
+                            imgThree={ClientsThree}
+                            userNameThree={"Md. Gias Uddin"}
+                            userDesigThree={"CEO, Jamuna Group"}
+                            userFeedbackThree="At first when I heard about this app after from I am every day using this app. A adviced everybody to use this. "
                         ></GridCarousolItem>
                     </div>
 
                     <div className="carousel-item" data-bs-interval="6000">
                         <GridCarousolItem
                             imgOne={ClientsFour}
+                            userNameOne={"Nadim hasan"}
+                            userDesigOne={"CEO, Global Group"}
+                            userFeedbackOne="This app is most user frieldly and easy to access and first loading app, I am one of fans of this app."
+
                             imgTwo={ClientsFive}
+                            userNameTwo={"Provath Acharjo"}
+                            userDesigTwo={"Manager, Arman Tech"}
+                            userFeedbackTwo="I am very much satisfied whth this app and I adviced my frieds to use this app all time.I love this app."
+
                             imgThree={ClientsSix}
-                            userDataOne={"Mohammad Karim <br/>   CEO, Global Group"}
-                            userDataTwo={"Md Mohib Billah <br/>   Manager, Arman Tech"}
-                            userDataThree={"Md. Gias Uddin <br/>   CEO, Jamuna Group"}
+                            userNameThree={"Md. Billal hossain"}
+                            userDesigThree={"CEO, Jamuna Group"}
+                            userFeedbackThree="At first when I heard about this app after from I am every day using this app. A adviced everybody to use this. "
                         ></GridCarousolItem>
                     </div>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './FeatureSingleTopics.css';
 
+
 const FeatureTopics = ({ Icon, Topics }) => {
     return (
         <div className='featureTopicsArea'>

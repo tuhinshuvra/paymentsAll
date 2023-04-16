@@ -11,6 +11,9 @@
     width: 135px;
 }
 
+.appStore:hover {
+    opacity: .5;
+}
 
 .footer_btn {
     color: #b2adae;
