@@ -4,9 +4,9 @@ import './HomeUserFeedback.css';
 
 const HomeUserFeedback = () => {
     return (
-        <div className='userFeedbackBg py-5'>
-            <h2 className='securityRightTitle text-center pt-3 pb-5 px-2'>Whats Our User are Saying</h2>
-            <HomeUserFeedbackCarousol></HomeUserFeedbackCarousol>
+        <div className='userFeedbackBg py-5  '>
+            <h2 className='securityRightTitle text-center pt-3 pb-5 px-2 animate_bottom'>Whats Our User are Saying</h2>
+            <HomeUserFeedbackCarousol className=""></HomeUserFeedbackCarousol>
         </div>
     );
 };

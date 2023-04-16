@@ -13,7 +13,7 @@ import ClientsNine from '../../../../../assets/clients/clients_4.jpg';
 
 const HomeUserFeedbackCarousol = () => {
     return (
-        <div className='col-10 mx-auto'>
+        <div className='col-10 mx-auto animate_bottom'>
             <div id="clientsGridCarousol" className="carousel  slide " data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="4000"  >

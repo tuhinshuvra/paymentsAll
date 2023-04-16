@@ -22,7 +22,7 @@ const Navbar = () => {
         <div>
             <div className='nav_hero_bg'>
 
-                <div className='  col-10 mx-auto'>
+                <div className='  col-10 mx-auto '>
                     <nav className="navbar navbar-expand-lg  bg-body-tertiary">
                         <div className="container-fluid">
                             <Link onClick={() => setIsOpen(true)} to="/">
@@ -74,7 +74,7 @@ const Navbar = () => {
 
                     <div className='col-md-10 mx-auto'>
                         <div className='row'>
-                            <div className='col-md-7 text-white hero_area '>
+                            <div className='col-md-7 text-white hero_area  animate_left'>
 
                                 <div className=' text-md-start text-center'>
                                     <span className='discount rounded-5'><img className='discount_star' src={DiscountStar} alt="" />25% DISCOUNT FOR 1 MONTH ACCOUNT</span>
@@ -97,20 +97,20 @@ const Navbar = () => {
                                 </div>
 
 
-                                <div className='col-md-9 me-auto px-2 px-md-0'>
+                                <div className='col-md-11 col-lg-10 col-xl-8 me-auto px-2 px-md-0 animate_bottom'>
                                     <div className='d-flex justify-content-md-between justify-content-center my-5'>
 
                                         <div className='text-center'>
                                             <h3 className='timmer_counter_number'>6K+</h3>
-                                            <p className='hero_sub_text'>ACTIVE USER</p>
+                                            <p className='timmer_sub_text'>ACTIVE USER</p>
                                         </div>
                                         <div className='text-center'>
                                             <h3 className='timmer_counter_number'>110+</h3>
-                                            <p className='hero_sub_text mx-3 mx-md-0'>TRUSTED BY COMPANIES</p>
+                                            <p className='timmer_sub_text mx-3 mx-md-0'>TRUSTED BY COMPANIES</p>
                                         </div>
                                         <div className='text-center'>
                                             <h3 className='timmer_counter_number'>$ 230 M+</h3>
-                                            <p className='hero_sub_text'>TRANSATIONS</p>
+                                            <p className='timmer_sub_text'>TRANSATIONS</p>
                                         </div>
 
                                     </div>

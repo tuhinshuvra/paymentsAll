@@ -16,13 +16,13 @@ const HomeSecuritySection = () => {
 
 
                     {/* secutiry handle money and get started section */}
-                    <div className='col-lg-6  d-flex justify-content-center align-items-center  text-md-start  text-center'>
+                    <div className='col-lg-6  d-flex justify-content-center align-items-center  text-md-start  text-center animate_left'>
                         <h1 className='securityRightTitle my-4'>We Will Handle the Money With Safety and Security</h1>
                     </div>
 
 
                     {/* secutiry types section */}
-                    <div className='col-lg-6 mt-5'>
+                    <div className='col-lg-6 mt-5 animate_right'>
                         <div className=' d-flex  align-items-center'>
                             <BsEmojiSmile className='security_icon'></BsEmojiSmile>
                             <div className=' my-auto ms-4'>
@@ -57,7 +57,7 @@ const HomeSecuritySection = () => {
                     </div>
 
                     {/* smart control section for mobile screen show */}
-                    <div className='col-lg-6 mt-sm-5 mt-lg-0  text-md-start  text-cente d-block d-lg-none'>
+                    <div className='col-lg-6 mt-sm-5 mt-lg-0  text-md-start  text-cente d-block d-lg-none animate_right'>
                         <h1 className='securityRightTitle text-center text-md-start '>Smartly Control Your Invoices and Payments</h1>
                     </div>
 
@@ -65,13 +65,13 @@ const HomeSecuritySection = () => {
 
                     {/* smart control image section */}
 
-                    <div className='col-lg-6 text-center flex-md-row-reverse mb-5 mb-lg-0'>
+                    <div className='col-lg-6 text-center flex-md-row-reverse mb-5 mb-lg-0 animate_left'>
                         <img className='securityTwo rounded-4' src={SecurityTwo} alt="" />
                         <img className='securityOne rounded-4' src={SecurityOne} alt="" />
                     </div>
 
                     {/* smart control section fon large screen show */}
-                    <div className=' col-lg-6  d-flex justify-content-center  align-items-center'>
+                    <div className=' col-lg-6  d-flex justify-content-center  align-items-center animate_right'>
                         <div className='text-md-start  text-cente d-none d-lg-block '>
                             <h1 className='securityRightTitle text-center text-md-start '>Smartly Control Your Invoices and Payments</h1>
                         </div>

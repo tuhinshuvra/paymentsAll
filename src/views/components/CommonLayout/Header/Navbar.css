@@ -67,6 +67,10 @@
     color: gold;
 }
 
+.timmer_sub_text {
+    font-size: 14px;
+}
+
 
 
 @media (min-width: 1024px)and (max-width: 1439.98px) {
@@ -159,6 +163,10 @@
         padding: 6px 8px;
         border: none;
     }
+
+    .timmer_sub_text {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
@@ -225,6 +233,10 @@
 
     .appPlayStore {
         width: 125px;
+    }
+
+    .timmer_sub_text {
+        font-size: 12px;
     }
 
 
