@@ -5,11 +5,11 @@ import ClientsOne from '../../../../../assets/clients/clients_1.jpg';
 import ClientsTwo from '../../../../../assets/clients/clients_2.png';
 import ClientsThree from '../../../../../assets/clients/clients_3.jpg';
 import ClientsFour from '../../../../../assets/clients/clients_4.jpg';
-import ClientsFive from '../../../../../assets/clients/clients_5.jpg';
-import ClientsSix from '../../../../../assets/clients/clients_6.jpg';
-import ClientsSeven from '../../../../../assets/clients/clients_2.png';
-import ClientsEight from '../../../../../assets/clients/clients_3.jpg';
-import ClientsNine from '../../../../../assets/clients/clients_4.jpg';
+import ClientsFive from '../../../../../assets/clients/clinets_5.jpg';
+import ClientsSix from '../../../../../assets/clients/clinets_6.jpg';
+import ClientsSeven from '../../../../../assets/clients/clinets_7.jpg';
+import ClientsEight from '../../../../../assets/clients/clinets_8.jpg';
+import ClientsNine from '../../../../../assets/clients/clinets_9.jpg';
 
 const HomeUserFeedbackCarousol = () => {
     return (
