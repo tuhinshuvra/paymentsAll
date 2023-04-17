@@ -1,5 +1,5 @@
 .logo {
-    width: 115px;
+    width: 200px;
 }
 
 .app_image {
@@ -39,15 +39,17 @@
     padding: 50px 50px;
 }
 
-.discount {
+.star_dialogue {
+    font-family: "mastro-caption";
+    font-size: 12px;
     background-color: rgba(122, 122, 122, 0.436);
     padding: 7px 12px;
 }
 
-.discount_star {
-    background: image("../../../../assets/parcent-star.png");
-    background-size: cover;
+.star_icon {
+    color: gold;
     width: 25px;
+    height: 25px;
     margin-bottom: 5px;
 }
 
@@ -65,7 +67,7 @@
 }
 
 .hero_text_middle {
-    color: #e86468;
+    color: #C62E4A;
 }
 
 .timmer_counter_number {
@@ -73,6 +75,7 @@
 }
 
 .timmer_sub_text {
+    font-family: "mastro-caption";
     font-size: 14px;
 }
 
@@ -91,6 +94,8 @@
     }
 }
 
+
+
 @media (min-width: 1440px) and (max-width: 2559.98px) {
     .app_image {
         position: absolute;
@@ -103,7 +108,20 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1439.98px) {
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+    .app_image {
+        position: absolute;
+        width: 400px;
+        height: 690px;
+        padding: 0 0 60px 0;
+        margin: 150px 0 0 719px;
+        left: 0;
+        top: 0;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
     .nav_hero_bg {
         position: relative;
         background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
@@ -122,9 +140,29 @@
         left: 0;
         top: 0;
     }
+
+    .star_icon {
+        color: gold;
+        width: 25px;
+        height: 25px;
+        margin-bottom: 5px;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1023.98px) {
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .app_image {
+        position: absolute;
+        width: 360px;
+        height: 570px;
+        padding: 0 0 60px 0;
+        margin: 273px 0 0 575px;
+        left: 0;
+        top: 0;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
     .nav_hero_bg {
         background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
         /* width: 99.8%; */
@@ -164,10 +202,9 @@
         align-items: center;
     }
 
-    .discount {
-        background-color: rgba(122, 122, 122, 0.436);
+    .star_dialogue {
         padding: 7px 12px;
-        font-size: 13px;
+        font-size: 9px;
     }
 
     .timmer_counter_number {
@@ -199,9 +236,20 @@
     .timmer_sub_text {
         font-size: 12px;
     }
+
+    .star_icon {
+        color: gold;
+        width: 17px;
+        height: 17px;
+        margin-bottom: 5px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
+    .logo {
+        width: 155px;
+    }
+
     .nav_hero_bg {
         background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
         /* width: 99.8%; */
@@ -231,11 +279,20 @@
         align-items: center;
     }
 
-    .discount {
-        background-color: rgba(122, 122, 122, 0.436);
-        padding: 7px 12px;
-        font-size: 13px;
+    .star_dialogue {
+        padding: 6px 5px;
+        font-size: 8px;
     }
+
+    .star_icon {
+        color: gold;
+        width: 14px;
+        height: 14px;
+        margin-bottom: 5px;
+    }
+
+
+
 
     .timmer_counter_number {
         font-size: 19px;

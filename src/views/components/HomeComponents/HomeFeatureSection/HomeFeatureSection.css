@@ -14,7 +14,7 @@
     font-size: 56px;
     letter-spacing: -1px;
     padding: 90px 0 34px;
-    color: #e75055;
+    color: #C62E4A;
 }
 
 .featureSubHead {
@@ -22,6 +22,31 @@
     font-size: 18px;
     padding: 0px 0 0px;
 }
+
+
+
+.button {
+    width: 150px;
+    /* set a width so it doesnt change upon hover */
+    border: 0px solid #004B84;
+    padding: 3px 21px;
+}
+
+.button:hover span {
+    display: none
+}
+
+.button:hover:before {
+    content: " Completed! do this in this way";
+}
+
+.button:hover {
+    /* background-color: green; */
+}
+
+
+
+
 
 /* media query sectin start */
 

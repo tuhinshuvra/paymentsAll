@@ -90,13 +90,13 @@
     }
 
     .forPrevIcon {
-        margin: -190px -714px 0px 118px !important;
+        margin: -220px -714px 0px 118px !important;
 
         padding: 8px 32px;
     }
 
     .forNextIcon {
-        margin: -190px 0px 0 0 !important;
+        margin: -220px 0px 0 0 !important;
         padding: 8px 32px;
     }
 }

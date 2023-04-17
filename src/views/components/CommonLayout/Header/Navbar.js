@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineRight } from 'react-icons/ai';
+import { BsStarFill } from 'react-icons/bs';
+
 import Logo from '../../../../assets/logo/payments_all_logo.png'
 import AppImage from '../../../../assets/payments_all_app.png'
-import DiscountStar from '../../../../assets/parcent-star.png'
 import GooglePlayStore from "../../../../assets/apps_store/google_play_store.png";
 import AppleStore from "../../../../assets/apps_store/apple_store.png";
 import SupportHomeSection from './SupportHomeSection';
@@ -36,9 +37,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link onClick={() => setIsOpen(true)} className="nav_button nav-link active  text-white" aria-current="page" to="/">Home</Link>
                                     </li>
-                                    {/* <li className="nav-item">
-                                        <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/aboutus">About Us</Link>
-                                    </li> */}
+
                                     <li className="nav-item">
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/features">Features</Link>
                                     </li>
@@ -54,13 +53,6 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/getStarted">Get Started</Link>
                                     </li>
-
-                                    {/* <li className="nav-item">
-                                        <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/login">Login</Link>
-                                    </li>
-                                    <li className="nav-item">
-                                        <Link onClick={() => setIsOpen(false)} className="nav_button nav-link  text-white" to="/signup">Signup</Link>
-                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -77,39 +69,38 @@ const Navbar = () => {
                             <div className='col-md-7 text-white hero_area  animate_left'>
 
                                 <div className=' text-md-start text-center'>
-                                    <span className='discount rounded-5'><img className='discount_star' src={DiscountStar} alt="" />25% DISCOUNT FOR 1 MONTH ACCOUNT</span>
+                                    <span className='star_dialogue rounded-5'>
+                                        <BsStarFill className='star_icon me-2'></BsStarFill>
+                                        We are Willing to Make a Cashless Society All Over The World
+                                    </span>
                                 </div>
                                 <h1 className='hero_heading my-3 '>The Next <br /><span className=' hero_text_middle'> Generation </span><br /> Payment Method</h1>
 
-                                <div className=' col-lg-8 '>
-                                    <p className='hero_sub_text my-4 text-center text-md-start '> We are Willing to Make a Cashless Society All Over The World</p>
-                                </div>
-
 
                                 {/* app store logo */}
-                                <div className="  text-center text-md-start">
+                                <div className="  text-center text-md-start my-5">
                                     <a href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
                                         <img className=" appPlayStore mt-1" src={GooglePlayStore} alt="" />
                                     </a>
-                                    <a className=' ms-1 ' href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
+                                    <a className=' ms-4 ' href={`https://play.google.com/store/apps/details?id=com.paymentsall.app`} target="_blank" rel="noreferrer">
                                         <img className=" appPlayStore mt-1" src={AppleStore} alt="" />
                                     </a>
                                 </div>
 
 
-                                <div className='col-md-11 col-lg-10 col-xl-8 me-auto px-2 px-md-0 animate_bottom'>
-                                    <div className='d-flex justify-content-md-between justify-content-center my-5'>
+                                <div className='col-10 col-md-11   col-xl-9 mx-auto  mx-md-0 px-2 px-md-0 animate_bottom'>
+                                    <div className='d-flex justify-content-md-between justify-content-center  my-5'>
 
                                         <div className='text-center'>
-                                            <h3 className='timmer_counter_number'>6K+</h3>
+                                            <h4 className='timmer_counter_number'>4K+</h4>
                                             <p className='timmer_sub_text'>ACTIVE USER</p>
                                         </div>
                                         <div className='text-center'>
-                                            <h3 className='timmer_counter_number'>110+</h3>
+                                            <h4 className='timmer_counter_number'>60+</h4>
                                             <p className='timmer_sub_text mx-3 mx-md-0'>TRUSTED BY COMPANIES</p>
                                         </div>
                                         <div className='text-center'>
-                                            <h3 className='timmer_counter_number'>$ 230 M+</h3>
+                                            <h4 className='timmer_counter_number'>130 Cr. +</h4>
                                             <p className='timmer_sub_text'>TRANSATIONS</p>
                                         </div>
 

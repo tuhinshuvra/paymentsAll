@@ -1,5 +1,4 @@
 import MainLayout from "../layout/MainLayout";
-import AboutUs from "../views/components/HomeComponents/HomeAboutUs/AboutUs";
 import HomeFeatureSection from "../views/components/HomeComponents/HomeFeatureSection/HomeFeatureSection";
 import HomeGetStarted from "../views/components/HomeComponents/HomeGetStarted/HomeGetStarted";
 import HomeOfferSection from "../views/components/HomeComponents/HomeOfferSection/HomeOfferSection";
@@ -19,10 +18,7 @@ const router = createBrowserRouter([
                 path: "/",
                 element: <Home></Home>
             },
-            {
-                path: "/aboutus",
-                element: <AboutUs></AboutUs>
-            },
+
             {
                 path: "/features",
                 element: <HomeFeatureSection></HomeFeatureSection>

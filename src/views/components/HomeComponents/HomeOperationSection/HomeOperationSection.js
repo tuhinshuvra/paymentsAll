@@ -19,8 +19,8 @@ const HomeOperationSection = () => {
 
                     {/* operation text section */}
                     <div className='col-lg-6 animate_right'>
-                        <h1 className='securityRightTitle mt-lg-0 mt-sm-4 mt-0 text-center text-md-start'>The Easiest Way to Operate and Use by You</h1>
-                        <p className='securityRightSubTitle my-4 text-center text-md-start '>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p>
+                        <h1 className='securityRightTitle mt-lg-0 my-sm-4 mt-0 text-center text-md-start'>The Easiest Way to Operate and Use by You</h1>
+                        {/* <p className='securityRightSubTitle my-4 text-center text-md-start '>By using the cradit card, you can improve your financial life by building credit, earning rewards and saving money.</p> */}
 
 
                         {/* operation segments */}

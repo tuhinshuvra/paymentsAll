@@ -32,6 +32,10 @@
     border-radius: 10px;
 }
 
+.nav_button {
+    font-family: 'mastro-caption';
+}
+
 .nav_button:hover {
     border: .05px solid rgb(125, 88, 235);
     border-radius: 10px;

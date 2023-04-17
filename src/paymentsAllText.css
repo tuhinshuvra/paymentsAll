@@ -5,17 +5,18 @@
     /* margin: 0; */
 }
 
-.secutirySubTitle {
+.securitySubTitle {
     font-family: 'mastro-caption';
     font-size: 14px;
     color: #0F393B;
+    line-height: 25px;
     /* margin: 0; */
 }
 
 .securityRightTitle {
     font-family: 'mastro-caption';
     font-size: 38px;
-    color: #e75055;
+    color: #C62E4A;
 }
 
 .securityRightSubTitle {

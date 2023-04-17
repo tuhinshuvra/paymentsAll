@@ -13,7 +13,7 @@ import OfferNine from '../../../../../assets/offer/6-01.jpg';
 
 const HomeOfferCarousol = () => {
     return (
-        <div className='col-10 mx-auto'>
+        <div className='col-10 col-md-12 col-lg-10 mx-auto'>
             <div id="offerGridCarousol" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active shadow" data-bs-interval="4000">
