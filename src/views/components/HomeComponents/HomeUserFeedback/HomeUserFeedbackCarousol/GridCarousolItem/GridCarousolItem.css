@@ -70,7 +70,32 @@
 
 
 
-@media (min-width: 1024px) and (max-width: 1439.98px) {
+@media (min-width: 1400px) {
+    .preIcon {
+        margin: -392px -1572px 0px 118px !important;
+        padding: 8px 32px;
+    }
+
+    .nextIcon {
+        margin: -392px 0px 0 0 !important;
+        padding: 8px 32px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .preIcon {
+        margin: -477px -1346px 0px 118px !important;
+        padding: 8px 32px;
+    }
+
+    .nextIcon {
+        margin: -477px -40px 0 0 !important;
+        padding: 8px 32px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
     .preIcon {
         margin: -392px -1072px 0px 118px !important;
         padding: 8px 32px;
@@ -82,7 +107,19 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023.98px) {
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .preIcon {
+        margin: -392px -1072px 0px 118px !important;
+        padding: 8px 32px;
+    }
+
+    .nextIcon {
+        margin: -392px 0px 0 0 !important;
+        padding: 8px 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
     .carsosolItemArea {
         padding: 27px !important;
         border-radius: 15px;

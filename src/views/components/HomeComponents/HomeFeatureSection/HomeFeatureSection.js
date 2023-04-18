@@ -1,28 +1,32 @@
 import React, { useState } from 'react';
 import FeatureTopics from './FeatureSingleTopics/FeatureSingleTopics';
+import { GiReceiveMoney } from 'react-icons/gi';
 import {
     MdInstallMobile, MdPermPhoneMsg, MdCreditCard, MdBolt, MdOutlineReceipt, MdAccountBalance,
     MdMobileFriendly, MdOutlineBookOnline, MdOutlineHowToVote, MdAssuredWorkload, MdWallet
 } from 'react-icons/md';
-import { GiReceiveMoney } from 'react-icons/gi';
-import { Button, OverlayTrigger, Popover } from 'react-bootstrap';
 import './HomeFeatureSection.css';
 
 const HomeFeatureSection = () => {
-    const [isActive, setIsActive] = useState(false);
+    const [sendMoney, setSendMoney] = useState(false);
+    const [mbRecharge, setMbRecharge] = useState(false);
 
-    // const popover = (
-    //     <Popover id="popover-basic">
-    //         <Popover.Header as="h3">Popover right</Popover.Header>
-    //         <Popover.Body>
-    //             And here's some <strong>amazing</strong> content. It's very engaging.
-    //             right?
-    //         </Popover.Body>
-    //     </Popover>
-    // );
 
-    document.getElementsByClassName('.featureTopicsArea')
+    const toggleIsSendMoney = () => {
+        setSendMoney(current => !current);
+    };
 
+    const toggleIsMbRecharge = () => {
+        setMbRecharge(current => !current);
+    };
+
+    function on() {
+        document.getElementById("overlay").style.display = "block";
+    }
+
+    function off() {
+        document.getElementById("overlay").style.display = "none";
+    }
 
     return (
         <div className='feature_bg text-center' id='featureSection'>
@@ -30,14 +34,38 @@ const HomeFeatureSection = () => {
             <p className='featureSubHead animate_right' > We bring together everything that you need to use <br /> for you to experiece of financial transaction</p>
 
             <div className='feature_items col-10 mx-auto animate_bottom'>
-                <div className='featureTopicsArea' >
+
+
+
+
+                {/* <div className="wrapper">
+                    <div className="bg-image">
+                        <p className="title">Title Data Show</p>
+                    </div>
+                </div> */}
+
+
+
+
+                <div onMouseDown={toggleIsSendMoney} className='featureTopicsArea wrapper'>
                     <MdInstallMobile className='featureIcon' />
-                    <p className='featureTopics'>Add Monew</p>
+                    <p className='featureTopics'>Add Money</p>
+                    <p className="title">Add Money Data Show</p>
                 </div>
 
-                <div className='featureTopicsArea'>
+
+                <div onClick={toggleIsMbRecharge} className='featureTopicsArea '  >
                     <MdPermPhoneMsg className='featureIcon' />
                     <p className='featureTopics'>Mobile Recharge</p>
+                    {mbRecharge &&
+                        <div className=' dataList'>
+                            <p>Mobile Recharge</p>
+                            <p>Another action</p>
+                            <p>Something else here</p>
+                        </div>
+                    }
+
+
                 </div>
 
                 <div className='featureTopicsArea'>
@@ -48,7 +76,7 @@ const HomeFeatureSection = () => {
 
                 <div className='featureTopicsArea'>
                     <MdBolt className='featureIcon' />
-                    <p className='featureTopics'>Quick Pay</p>
+                    <p className='featureTopics'>Fuel Pay</p>
                 </div>
 
 
@@ -59,7 +87,7 @@ const HomeFeatureSection = () => {
 
                 <div className='featureTopicsArea'>
                     <MdAccountBalance className='featureIcon' />
-                    <p className='featureTopics'>Bank Transfer</p>
+                    <p className='featureTopics'>General Transfer</p>
                 </div>
 
                 <div className='featureTopicsArea'>

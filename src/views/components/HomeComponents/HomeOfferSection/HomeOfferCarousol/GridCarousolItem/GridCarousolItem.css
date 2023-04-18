@@ -71,7 +71,33 @@
     transition: 5s ease-in-out left !important;
 }
 
-@media (min-width: 1024px) and (max-width: 1439.98px) {
+@media (min-width: 1400px) {
+    .forPrevIcon {
+        margin: -231px -1600px 0px 118px !important;
+
+        padding: 8px 32px;
+    }
+
+    .forNextIcon {
+        margin: -231px -44px 0 0 !important;
+        padding: 8px 32px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .forPrevIcon {
+        margin: -200px -1330px 0px 118px !important;
+
+        padding: 8px 32px;
+    }
+
+    .forNextIcon {
+        margin: -200px -44px 0 0 !important;
+        padding: 8px 32px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
     .forPrevIcon {
         margin: -250px -1072px 0px 118px !important;
         padding: 8px 32px;
