@@ -13,9 +13,9 @@
     /* margin: 0; */
 }
 
-.securityRightTitle {
+.paymentsAllTitle {
     font-family: 'mastro-caption';
-    font-size: 38px;
+    font-size: 45px;
     color: #C62E4A;
 }
 
@@ -25,17 +25,21 @@
     color: #0F393B;
 }
 
-@media (min-width: 768px) and (max-width: 1023.98px) {}
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .paymentsAllTitle {
+        font-size: 40px;
+    }
+}
 
 @media (min-width: 425px) and (max-width: 767.98px) {
-    .securityRightTitle {
+    .paymentsAllTitle {
         font-size: 28px;
     }
 }
 
 
 @media (min-width: 320px) and (max-width: 424.98px) {
-    .securityRightTitle {
+    .paymentsAllTitle {
         font-size: 26px;
     }
 

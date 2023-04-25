@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { AiOutlineRight } from 'react-icons/ai';
 import { BsStarFill } from 'react-icons/bs';
 
 import Logo from '../../../../assets/logo/payments_all_logo.png'
@@ -68,12 +67,8 @@ const Navbar = () => {
                         <div className='row'>
                             <div className='col-md-7 text-white hero_area  animate_left'>
 
-                                <div className=' text-md-start text-center'>
-                                    <span className='star_dialogue rounded-5'>
-                                        <BsStarFill className='star_icon me-2'></BsStarFill>
-                                        We are Willing to Make a Cashless Society All Over The World
-                                    </span>
-                                </div>
+                                <i className=' text-center fw-bold star_dialogue'>"We are Willing to Make a Cashless Society  All Over The World"</i>
+
                                 <h1 className='hero_heading my-3 '>The Next <br /><span className=' hero_text_middle'> Generation </span><br /> Payment Method</h1>
 
 
@@ -92,7 +87,7 @@ const Navbar = () => {
                                     <div className='d-flex justify-content-md-between justify-content-center  my-5'>
 
                                         <div className='text-center'>
-                                            <h4 className='timmer_counter_number'>4K+</h4>
+                                            <h4 className='timmer_counter_number'>4000+</h4>
                                             <p className='timmer_sub_text'>ACTIVE USER</p>
                                         </div>
                                         <div className='text-center'>
@@ -130,7 +125,7 @@ const Navbar = () => {
                     </>
             }
 
-        </div>
+        </div >
     );
 };
 

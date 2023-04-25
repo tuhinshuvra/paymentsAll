@@ -10,6 +10,7 @@ import OfferSix from '../../../../../assets/offer/1.jpg';
 import OfferSeven from '../../../../../assets/offer/3-01.jpg';
 import OfferEight from '../../../../../assets/offer/4-01.jpg';
 import OfferNine from '../../../../../assets/offer/6-01.jpg';
+import './GridCarousolItem/GridCarousolItem.css';
 
 const HomeOfferCarousol = () => {
     return (

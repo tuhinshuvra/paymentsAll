@@ -40,10 +40,11 @@
 }
 
 .star_dialogue {
-    font-family: "mastro-caption";
-    font-size: 12px;
-    background-color: rgba(122, 122, 122, 0.436);
-    padding: 7px 12px;
+    /* font-family: "mastro-caption"; */
+    /* font-size: 12px; */
+    /* background-color: rgba(122, 122, 122, 0.436); */
+    /* padding: 7px 12px; */
+    color: #2dc680
 }
 
 .star_icon {
@@ -245,7 +246,92 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 767.98px) {
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .logo {
+        width: 155px;
+    }
+
+    .nav_hero_bg {
+        background-image: url("../../../../assets/nav_hero/payments_all_nav_hero.svg");
+        /* width: 99.8%; */
+        /* height: 492px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        clip-path: polygon(0 0%, 100% 0, 100% 95%, 0 100%);
+    }
+
+    /* .app_image {
+        display: none;
+    } */
+
+    .hero_heading {
+        text-align: center;
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .hero_area {
+        align-items: center;
+        padding: 15px 50px;
+    }
+
+    .hero_sub_text {
+        align-items: center;
+    }
+
+    .star_dialogue {
+        font-size: 11px;
+    }
+
+    .star_icon {
+        color: gold;
+        width: 14px;
+        height: 14px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+    .timmer_counter_number {
+        font-size: 19px;
+    }
+
+    .payments_btn {
+        padding: 6px 8px;
+    }
+
+    .payments_outLine_btn {
+        text-decoration: none;
+        /* background-color: none; */
+        margin: 8px 0 0 0;
+        color: white;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    .payments_outLine_btn:hover {
+        background-color: rgb(136, 5, 136);
+        margin: 0 0 0 0;
+        color: white;
+        padding: 6px 8px;
+        border: none;
+    }
+
+    .appPlayStore {
+        width: 125px;
+    }
+
+    .timmer_sub_text {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 424.98px) {
     .logo {
         width: 155px;
     }

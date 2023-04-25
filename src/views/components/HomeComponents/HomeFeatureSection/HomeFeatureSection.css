@@ -1,25 +1,6 @@
 .wrapper {
     position: relative;
-    transition: all 200ms ease-in-out;
-}
-
-
-.featureTopicsArea {
-    background-color: #FFE9BD;
-    border-radius: 25px;
-    /* padding: 30px 10px; */
-}
-
-.featureTopicsArea:hover {
-    background-color: white;
-    /* width: 230px; */
-    /* height: 164px; */
-}
-
-.featureTopics {
-    font-family: "mastro-caption";
-    font-size: 16px;
-    padding: 38px 0px;
+    transition: all 1500ms ease-in-out;
 }
 
 .title {
@@ -39,7 +20,25 @@
     padding: 30px 20px 0px;
     border-radius: 25px;
     opacity: 0;
-    transition: 0.6s;
+    transition: 1000ms;
+}
+
+.featureTopicsArea {
+    background-color: #FFE9BD;
+    border-radius: 25px;
+    /* padding: 30px 10px; */
+}
+
+.featureTopicsArea:hover {
+    background-color: white;
+    /* width: 230px; */
+    /* height: 164px; */
+}
+
+.featureTopics {
+    font-family: "mastro-caption";
+    font-size: 16px;
+    padding: 38px 0px;
 }
 
 .featureIcon {
