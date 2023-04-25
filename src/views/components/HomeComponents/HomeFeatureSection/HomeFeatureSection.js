@@ -16,7 +16,7 @@ const HomeFeatureSection = () => {
 
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className='featureIconPosition'>
                         <MdInstallMobile className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Add Money</p>
@@ -26,13 +26,13 @@ const HomeFeatureSection = () => {
 
                 <div className='featureTopicsArea wrapper'  >
 
-                    <div className=' me-5'><MdPermPhoneMsg className='featureIcon' /></div>
+                    <div className='featureIconPosition'><MdPermPhoneMsg className='featureIcon' /></div>
                     <p className='featureTopics'>Mobile Recharge</p>
                     <p className="title">Prepaid, postpaid Mobile Recharge</p>
                 </div>
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className='featureIconPosition'>
                         <MdCreditCard className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Travel Card</p>
@@ -41,16 +41,16 @@ const HomeFeatureSection = () => {
 
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className='featureIconPosition'>
                         <MdBolt className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Fuel Pay</p>
-                    <p className="title">refuel payments and electric Vichel charging payments</p>
+                    <p className="title">Refuel payments and electric Vichel charging payments</p>
                 </div>
 
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className='featureIconPosition'>
                         <MdOutlineReceipt className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Bill Pay</p>
@@ -58,7 +58,7 @@ const HomeFeatureSection = () => {
                 </div>
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className='featureIconPosition'>
                         <MdAccountBalance className='featureIcon' />
                     </div>
                     <p className='featureTopics'>General Banking</p>
@@ -66,7 +66,7 @@ const HomeFeatureSection = () => {
                 </div>
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className='featureIconPosition'>
                         <GiReceiveMoney className='featureIcon' />
                     </div>
                     <p className='featureTopics'>E Loan</p>
@@ -74,7 +74,7 @@ const HomeFeatureSection = () => {
                 </div>
                 <div className='featureTopicsArea wrapper'>
 
-                    <div className=' me-5'>
+                    <div className='featureIconPosition'>
                         <MdMobileFriendly className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Mobile Banking</p>
@@ -82,7 +82,7 @@ const HomeFeatureSection = () => {
                 </div>
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className='featureIconPosition'>
                         <MdOutlineBookOnline className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Ticketing</p>
@@ -90,16 +90,16 @@ const HomeFeatureSection = () => {
                 </div>
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className=' featureIconPosition'>
                         <MdOutlineHowToVote className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Donation</p>
-                    <p className="title"> Donate to Anjuman Mofidul Islam, Quantum Foundation, Red Cresent Society, or any other organization </p>
+                    <p className="title"> Donate to Anjuman Mofidul Islam, Red Cresent Society, or any other organization </p>
                 </div>
 
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className=' featureIconPosition'>
                         <MdAssuredWorkload className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Govt Fees</p>
@@ -107,11 +107,11 @@ const HomeFeatureSection = () => {
                 </div>
 
                 <div className='featureTopicsArea wrapper'>
-                    <div className=' me-5'>
+                    <div className=' featureIconPosition'>
                         <MdWallet className='featureIcon' />
                     </div>
                     <p className='featureTopics'>Salary Pay</p>
-                    <p className="title">Employee's Salary can be paid</p>
+                    <p className="title">Employees Salary can be paid</p>
                 </div>
             </div>
         </div>
