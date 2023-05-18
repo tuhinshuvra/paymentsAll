@@ -1,6 +1,6 @@
 /* css animation text comes from top start */
 
-.animate_bottom {
+. {
     position: relative;
     animation: animatebottom 1.5s;
 }
@@ -22,7 +22,7 @@
 
 /* start css animation text comes from left */
 
-.animate_left {
+. {
     position: relative;
     animation: animateleft 2s
 }
@@ -42,7 +42,7 @@
 /* end css animation text comes from left */
 
 /* start css animation text comes from right */
-.animate_right {
+. {
     position: relative;
     animation: animateright 2s
 }

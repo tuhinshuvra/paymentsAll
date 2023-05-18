@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BsStarFill } from 'react-icons/bs';
-
 import Logo from '../../../../assets/logo/payments_all_logo.png'
 import AppImage from '../../../../assets/payments_all_app.png'
 import GooglePlayStore from "../../../../assets/apps_store/google_play_store.png";
@@ -9,14 +8,26 @@ import AppleStore from "../../../../assets/apps_store/apple_store.png";
 import SupportHomeSection from './SupportHomeSection';
 import SupportOtherSection from './SupportOtherSection';
 import './Navbar.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(true);
-    console.log("Is OPen : ", isOpen);
+    // console.log("Is OPen : ", isOpen);
 
     // const navHeroRectangle = {
     //     clipPath: "polygon(0 0%, 100% 0, 100% 70%, 0 100%)",
     // };
+
+    useEffect(() => {
+        AOS.init({
+            // offset: 200,
+            duration: 2000,
+            delay: 200,
+            // mirror: true,
+            // once: false
+        });
+    }, [])
 
     return (
         <div>
@@ -65,7 +76,7 @@ const Navbar = () => {
 
                     <div className='col-md-10 mx-auto'>
                         <div className='row'>
-                            <div className='col-md-7 text-white hero_area  animate_left'>
+                            <div className='col-md-7 text-white hero_area' data-aos="fade-up-right" >
 
                                 <i className=' text-center fw-bold star_dialogue'>"We are Willing to Make a Cashless Society  All Over The World"</i>
 
@@ -83,7 +94,7 @@ const Navbar = () => {
                                 </div>
 
 
-                                <div className='col-10 col-md-11   col-xl-9 mx-auto  mx-md-0 px-2 px-md-0 animate_bottom'>
+                                <div className='col-10 col-md-11   col-xl-9 mx-auto  mx-md-0 px-2 px-md-0 '>
                                     <div className='d-flex justify-content-md-between justify-content-center  my-5'>
 
                                         <div className='text-center'>
@@ -109,8 +120,8 @@ const Navbar = () => {
 
             {
                 isOpen &&
-                <div className='col-md-5 d-none d-md-block'>
-                    <img className='app_image' src={AppImage} alt="" />
+                <div className='col-md-5 d-none d-md-block'  >
+                    <img className='app_image' src={AppImage} alt="" data-aos="fade-up-left" />
                 </div>
             }
 

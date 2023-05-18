@@ -7,7 +7,7 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree, userNameOne, userDesigOne,
     return (
         <div className="container">
             <div className="row gx-5">
-                <div className="col   py-3">
+                <div className="col   py-3" data-aos="flip-left">
                     <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'>{userFeedbackOne}</p>
@@ -21,7 +21,7 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree, userNameOne, userDesigOne,
                     </div>
                 </div>
 
-                <div className="col d-none d-md-block   py-3">
+                <div className="col d-none d-md-block   py-3" data-aos="flip-left">
                     <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'>{userFeedbackTwo}</p>
@@ -35,7 +35,7 @@ const GridCarousolItem = ({ imgOne, imgTwo, imgThree, userNameOne, userDesigOne,
                     </div>
                 </div>
 
-                <div className="col d-none d-xl-block   py-3">
+                <div className="col d-none d-xl-block   py-3" data-aos="flip-left">
                     <div className="carsosolItemArea ">
                         <ImQuotesLeft className=' feedbackQuote'></ImQuotesLeft>
                         <p className='feebdackText col-11 my-4'>{userFeedbackThree}</p>

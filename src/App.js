@@ -6,6 +6,7 @@ import './paymentsAllButtons.css'
 import './paymentsAllText.css'
 import './App.css';
 
+
 function App() {
   return (
     <div className="">
