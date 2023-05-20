@@ -1,5 +1,5 @@
 import React from 'react';
-import OperationImage from '../../../../assets/paymentsAllOperation.png';
+import OperationImage from '../../../../assets/paymentsAllOperation.webp';
 import { FaAnchor } from 'react-icons/fa';
 import { BsFillHddStackFill, BsHandThumbsUpFill } from 'react-icons/bs';
 import { GiConvergenceTarget } from 'react-icons/gi';
